@@ -148,7 +148,7 @@ const About = () => {
         <div className="flex-center h-full w-full">
           <motion.div className="img-container" {...motionValues}>
             <Image
-              src="/images/profile.png"
+              src="/images/profile1.png"
               alt="Portrait of Marvellous Olabode"
               width={500}
               height={500}
