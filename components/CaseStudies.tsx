@@ -11,7 +11,16 @@ const studies = [
     tools: "GoHighLevel · Keap · Zapier · Alchemer",
   },
   {
-    label: "02 / Regional operations",
+    label: "02 / CRM data reconciliation",
+    title: "One usable view across two CRMs.",
+    context: "BNI Alberta South · CRM operations",
+    challenge: "Contact records from separate CRM systems needed to be compared before they could support reliable follow-up and reporting.",
+    contribution: "I reconciled the contact exports by normalizing email addresses, matching records across systems, identifying contacts present in only one source, and checking the unified list for duplicate or missing record keys.",
+    result: "The reconciliation produced a unified working list with matched and source-only records accounted for. This is a data-quality result; it does not claim new leads, conversion growth, or additional revenue.",
+    tools: "Keap · HubSpot · spreadsheet reconciliation",
+  },
+  {
+    label: "03 / Regional operations",
     title: "Keeping a busy network coordinated.",
     context: "BNI Alberta South · remote operations",
     challenge: "A distributed leadership team needed reliable meeting logistics, member support, access management, and recurring reports across 18 chapters.",
