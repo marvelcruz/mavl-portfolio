@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 import { projects } from "@/constants";
 
 const projectDetails = [
-  { number: "01", category: "Hospitality / Live concept", tone: "cosmo", marquee: "COSMO", detail: "A venue story, a multi-page menu, and an occasion-based pairing tool." },
-  { number: "02", category: "Medical aesthetics / Live concept", tone: "skye", marquee: "SKYE", detail: "Treatment discovery, a short finder, and a path to consultation." },
-  { number: "03", category: "Wellness / Live concept", tone: "fitlunge", marquee: "FITLUNGE", detail: "A visual introduction followed by a program and application journey." },
+  { number: "01", category: "Hospitality / Live concept", tone: "cosmo", image: "/images/cosmo-case-study.jpg", detail: "A venue story, a multi-page menu, and an occasion-based pairing tool." },
+  { number: "02", category: "Medical aesthetics / Live concept", tone: "skye", image: "/images/skye-case-study.jpg", detail: "Treatment discovery, a short finder, and a path to consultation." },
+  { number: "03", category: "Wellness / Live concept", tone: "fitlunge", image: "/images/fitlunge-case-study.jpg", detail: "A visual introduction followed by a program and application journey." },
 ];
 
 export default function Projects() {
@@ -20,9 +21,9 @@ export default function Projects() {
           return (
             <article className={`featured-card featured-${detail.tone}`} key={project.id}>
               <Link href={project.url} target="_blank" rel="noopener noreferrer" className="featured-preview" aria-label={`Explore ${project.title} live website`}>
+                <Image src={detail.image} alt={`Preview of the ${project.title} live website`} fill sizes="(max-width: 680px) 100vw, (max-width: 1100px) 50vw, 1100px" className="featured-preview-image" />
                 <div className="preview-browser" aria-hidden="true"><span /><span /><span /><small>{new URL(project.url).hostname}</small></div>
-                <span className="preview-marquee">{detail.marquee}</span>
-                <span className="preview-foot">{detail.category}<span>→</span></span>
+                <span className="preview-foot">{detail.category}<span aria-hidden="true">↗</span></span>
               </Link>
               <div className="featured-caption">
                 <div className="featured-number">{detail.number}</div>
