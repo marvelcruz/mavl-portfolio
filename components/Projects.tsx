@@ -26,7 +26,7 @@ export default function Projects() {
               </Link>
               <div className="featured-caption">
                 <div className="featured-number">{detail.number}</div>
-                <div><p className="eyebrow">{detail.category}</p><h3>{project.title}</h3><p>{detail.detail}</p></div>
+                <div><p className="eyebrow">{detail.category}</p><h3>{project.title}</h3><p>{detail.detail}</p>{detail.tone === "cosmo" && <Link href="/work/cosmo" className="project-case-link">Read the case study ↗</Link>}</div>
                 <Link href={project.url} target="_blank" rel="noopener noreferrer" className="project-open" aria-label={`Visit ${project.title} live website`}>→</Link>
               </div>
             </article>
