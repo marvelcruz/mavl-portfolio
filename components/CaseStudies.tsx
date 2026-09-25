@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const studies = [
   {
     label: "01 / CRM & member lifecycle",
@@ -65,7 +67,8 @@ export default function CaseStudies() {
             </li>
           ))}
         </ol>
-        <p className="workflow-note">Feature descriptions verified against my private frontend and backend repositories. This is a code-backed project summary; deployment, user adoption, and business impact are not claimed here.</p>
+        <p className="workflow-note">Feature descriptions verified against my private frontend and backend repositories. The live application reaches a private sign-in page; user adoption and measured business impact are not claimed here.</p>
+        <Link href="/regional-os-demo" className="regional-demo-link">Explore the sample walkthrough <span aria-hidden="true">↗</span></Link>
       </div>
       <div className="revenue-example" aria-labelledby="revenue-heading">
         <div className="revenue-heading">

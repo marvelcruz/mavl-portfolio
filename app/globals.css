@@ -519,6 +519,8 @@ body::after {
 .workflow-steps li > p { color: #41483d; font-size: .8rem; line-height: 1.6; }
 .workflow-role { margin-top: auto; padding-top: 20px; color: #605326; font-size: .72rem; font-weight: 800; }
 .workflow-note { margin-top: 19px; color: #51554a; font-size: .72rem; line-height: 1.55; }
+.regional-demo-link { display: inline-flex; align-items: center; gap: 18px; margin-top: 24px; padding: 14px 20px; border-radius: 4px; background: #24291e; color: #fff; font-size: .78rem; font-weight: 800; transition: background .2s ease; }
+.regional-demo-link:hover, .regional-demo-link:focus-visible { background: #435146; }
 .revenue-example { margin-top: 22px; padding: clamp(25px, 4vw, 52px); border: 1px solid rgba(255,255,255,.2); border-radius: 12px; background: #17231d; color: #f5f1e6; }
 .revenue-heading { display: grid; grid-template-columns: 1fr minmax(230px, .6fr); column-gap: 45px; align-items: end; }
 .revenue-heading .eyebrow { grid-column: 1 / -1; color: var(--mustard); }
