@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { projects } from "@/constants";
@@ -24,17 +23,11 @@ const Projects = () => {
               {...motionValues}
               className="card-soft group flex flex-col overflow-hidden rounded-2xl"
             >
-              <div className="relative flex h-64 w-full items-center justify-center overflow-hidden border-b border-[#D6A400]/25 bg-white p-4">
-                <Image
-                  src={project.src}
-                  alt={project.title}
-                  fill
-                  className="object-contain p-3 transition-transform duration-700 group-hover:scale-[1.03]"
-                />
-
+              <div className="relative flex h-48 w-full flex-col justify-end overflow-hidden border-b border-[#D6A400]/25 bg-gradient-to-br from-[#271d00] via-[#171717] to-black p-6">
                 <div className="absolute left-4 top-4 rounded-full border border-[#D6A400]/50 bg-black px-3 py-1 text-xs font-bold text-[#D6A400]">
                   {String(index + 1).padStart(2, "0")}
                 </div>
+                <span className="font-montserrat text-2xl font-bold text-white">{project.title}</span>
               </div>
 
               <div className="flex flex-1 flex-col gap-4 p-5">
@@ -57,31 +50,11 @@ const Projects = () => {
                     ))}
                 </div>
 
-                {(project.url || project.gitLink) && (
-                  <div className="mt-auto flex flex-wrap gap-3 pt-2">
-                    {project.url && (
-                      <Link
-                        href={project.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mustard-button"
-                      >
-                        View Project
-                      </Link>
-                    )}
-
-                    {project.gitLink && (
-                      <Link
-                        href={project.gitLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="white-pill"
-                      >
-                        View Code
-                      </Link>
-                    )}
+                <div className="mt-auto pt-2">
+                  <Link href={project.url} target="_blank" rel="noopener noreferrer" className="mustard-button">
+                    Visit live website <span aria-hidden="true">↗</span>
+                  </Link>
                   </div>
-                )}
               </div>
             </motion.article>
           ))}

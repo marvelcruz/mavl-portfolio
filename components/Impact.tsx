@@ -20,9 +20,9 @@ const impactItems = [
     desc: "Supported BNI Alberta South’s regional operations during a period when the leadership team achieved #1 region in Canada and #1 globally in 2024.",
   },
   {
-    metric: "40% Faster",
-    title: "Concept-to-Launch Workflow",
-    desc: "Built reusable content workflows, campaign templates, platform checklists, and review systems through Triskelion to reduce concept-to-launch time.",
+    metric: "3 Live Sites",
+    title: "Website & Digital Experience",
+    desc: "Built web experiences for hospitality, healthcare, and wellness projects. Explore the live work below.",
   },
 ];
 

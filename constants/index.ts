@@ -75,89 +75,33 @@ export const services = {
 };
 
 export const projects = {
-  title: "Projects",
+  title: "Selected Websites",
   description:
-    "Selected work showing my experience in operations, CRM workflows, automation, website systems, marketing operations, reporting, and digital business support.",
+    "Explore live websites I have built and developed. My operations and CRM work is highlighted in the Impact section above.",
   projects: [
     {
-      id: "project-1",
-      title: "BNI Operations & Member Systems Support",
+      id: "cosmo",
+      title: "COSMO Bar",
       description:
-        "Supported regional operations across active chapters, leadership teams, member systems, event workflows, reporting sheets, access management, and recurring administrative processes.",
-      url: "",
-      gitLink: "",
-      src: "/images/BNI Backend.png",
-      stacks: ["BNI Connect", "Google Workspace", "Operations"],
+        "A visual hospitality website with dedicated pages for food, ice cream, drinks, events, bread, and the venue experience.",
+      url: "https://cosmo-bar-frontend.vercel.app/",
+      stacks: ["Hospitality", "Website", "Digital Experience"],
     },
     {
-      id: "project-2",
-      title: "Workflow Automation Support",
+      id: "skye",
+      title: "Skye Medical Aesthetics",
       description:
-        "Built and maintained workflows for registrations, follow-ups, chapter updates, member communication, renewal tasks, and recurring operational processes.",
-      url: "",
-      gitLink: "",
-      src: "/images/Zapier.png",
-      stacks: ["Zapier", "GoHighLevel", "Keap"],
+        "A clinic experience with treatment navigation, a full menu, and separate client and staff entry points.",
+      url: "https://skye-weight-loss-clinic-frontend.vercel.app/",
+      stacks: ["Healthcare", "Website", "Client Portal"],
     },
     {
-      id: "project-3",
-      title: "QuickBooks & Finance Support",
+      id: "fitlunge",
+      title: "FitLunge",
       description:
-        "Supported financial operations through payment tracking, reconciliation support, bookkeeping worksheets, and reporting coordination.",
-      url: "",
-      gitLink: "",
-      src: "/images/Quickbooks1.png",
-      stacks: ["QuickBooks", "Reporting", "Finance Support"],
-    },
-    {
-      id: "project-4",
-      title: "GoHighLevel CRM Pipeline Support",
-      description:
-        "Supported CRM pipelines for lead tracking, member follow-up, visitor workflows, client communication, and operational visibility.",
-      url: "",
-      gitLink: "",
-      src: "/images/Gohighlevel1.png",
-      stacks: ["GoHighLevel", "CRM", "Pipeline Management"],
-    },
-    {
-      id: "project-5",
-      title: "Event Operations & Registration Workflows",
-      description:
-        "Supported training events, chapter meetings, roundtables, registration flows, Zoom setup, Eventbrite coordination, and post-event follow-up.",
-      url: "",
-      gitLink: "",
-      src: "/images/Calendar Management.png",
-      stacks: ["Eventbrite", "Zoom", "Google Calendar"],
-    },
-    {
-      id: "project-6",
-      title: "Social Media & Digital Communication Systems",
-      description:
-        "Supported social media coordination, content planning, event promotion, digital assets, weekly updates, and visibility workflows across business communities.",
-      url: "",
-      gitLink: "",
-      src: "/images/Facebook.png",
-      stacks: ["Meta Business Suite", "LinkedIn", "Canva"],
-    },
-    {
-      id: "project-7",
-      title: "Member Feedback & Survey Systems",
-      description:
-        "Built and supported feedback systems that helped collect member input, organize responses, and improve operational visibility.",
-      url: "",
-      gitLink: "",
-      src: "/images/Alchemer11.png",
-      stacks: ["Alchemer", "Data Collection", "Reporting"],
-    },
-    {
-      id: "project-8",
-      title: "Portfolio Website Built with React",
-      description:
-        "Designed and developed this portfolio to present my operations, CRM, automation, marketing systems, and website work in one place.",
-      url: "https://mavl-portfolio.vercel.app",
-      gitLink: "",
-      src: "/images/Marvel.png",
-      stacks: ["React", "Next.js", "Vercel"],
+        "A women's weight loss website presenting the program, results, science, and paths to get in touch.",
+      url: "https://fitlunge-frontend-kappa.vercel.app/",
+      stacks: ["Wellness", "Website", "Digital Experience"],
     },
   ],
 };

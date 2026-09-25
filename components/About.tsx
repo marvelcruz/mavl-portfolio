@@ -14,12 +14,12 @@ const proofPoints = [
     label: "active chapters supported across operations, events, systems, and reporting",
   },
   {
-    stat: "2024",
-    label: "supported regional operations during #1 Canada and #1 global recognition",
+    stat: "CRM",
+    label: "workflows, member systems, reporting, and automations",
   },
   {
-    stat: "40%",
-    label: "faster concept-to-launch workflow through Triskelion content systems",
+    stat: "Web",
+    label: "live projects across hospitality, healthcare, and wellness",
   },
 ];
 
@@ -76,10 +76,9 @@ const About = () => {
                 lineHeight: "1.75",
               }}
             >
-              My strongest work happens behind the scenes. I organize messy
-              systems, document repeatable workflows, connect tools, support
-              leaders, manage digital assets, and help teams move from scattered
-              manual work to structured execution.
+              I organize complex systems, document repeatable workflows, connect
+              tools, and build digital experiences. Explore the live websites below
+              alongside my work supporting leaders and remote teams.
             </p>
 
             <ul className="mb-5 ml-0 flex flex-col gap-2">
