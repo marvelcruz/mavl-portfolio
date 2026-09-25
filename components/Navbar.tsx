@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { links } from "@/constants";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
@@ -19,18 +18,7 @@ const Navbar = () => {
   return (
     <header className="header border_b">
       <nav className="nav-bar">
-        <Link href="/" aria-label="Go to homepage">
-          <div className="rounded-full" style={{ backgroundColor: "#B88700" }}>
-            <Image
-              src="/icons/logo.ico"
-              alt="Marvellous Olabode logo"
-              width={40}
-              height={40}
-              className="p-[3px] cursor-pointer"
-              priority
-            />
-          </div>
-        </Link>
+        <Link href="/" aria-label="Marvellous Olabode homepage" className="brand-mark">M<span>.</span></Link>
 
         <div className="hidden lg:flex-center">
           <ul className="flex-center gap-4">
@@ -48,6 +36,8 @@ const Navbar = () => {
           </ul>
         </div>
 
+        <Link href="#contact" className="nav-contact hidden lg:inline-flex">Start a conversation ↗</Link>
+
         <Button
           className="hidden max-lg:flex-center"
           onClick={toggleShowNav}
@@ -61,7 +51,7 @@ const Navbar = () => {
         </Button>
       </nav>
 
-      <MobileNav links={links} show={showNav} onClose={() => setShowNav(false)} />  {/* ← only change */}
+      <MobileNav links={links} show={showNav} onClose={() => setShowNav(false)} />
     </header>
   );
 };

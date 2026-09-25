@@ -1,5 +1,4 @@
 import { Control, FieldPath } from 'react-hook-form';
-import { z } from 'zod';                                    // ← add this
 import {
   FormControl,
   FormField,
@@ -9,9 +8,7 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { formSchema } from '@/components/Contact';          // ← replace the bad import
-
-type ContactFormValues = z.infer<typeof formSchema>;        // ← add this
+import type { ContactFormValues } from '@/components/src/lib/schemas/contact.schema';
 
 interface FormInputProps {
   name: FieldPath<ContactFormValues>;

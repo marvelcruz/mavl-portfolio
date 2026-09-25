@@ -1,67 +1,38 @@
-"use client";
-
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { projects } from "@/constants";
-import { motionValues } from "@/lib/utils";
 
-const Projects = () => {
-  const { title, description, projects: projectItems } = projects;
+const projectDetails = [
+  { number: "01", category: "Hospitality / Live concept", tone: "cosmo", marquee: "COSMO", detail: "A playful, multi-page destination for food, drinks, events, and everything in between." },
+  { number: "02", category: "Healthcare / Live concept", tone: "skye", marquee: "SKYE", detail: "A polished clinic experience connecting treatment discovery with client and staff spaces." },
+  { number: "03", category: "Wellness / Live concept", tone: "fitlunge", marquee: "FITLUNGE", detail: "A lifestyle-led introduction to a medically supervised weight loss program." },
+];
 
+export default function Projects() {
   return (
-    <section id="projects" className="section section_px section-gap">
-      <main className="flex flex-col gap-12">
-        <motion.div {...motionValues} className="flex-center flex-col gap-4">
-          <h2 className="section-h2">{title}</h2>
-          <h3 className="section-h3 max-w-3xl text-center">{description}</h3>
-        </motion.div>
-
-        <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {projectItems.map((project, index) => (
-            <motion.article
-              key={project.id}
-              {...motionValues}
-              className="card-soft group flex flex-col overflow-hidden rounded-2xl"
-            >
-              <div className="relative flex h-48 w-full flex-col justify-end overflow-hidden border-b border-[#D6A400]/25 bg-gradient-to-br from-[#271d00] via-[#171717] to-black p-6">
-                <div className="absolute left-4 top-4 rounded-full border border-[#D6A400]/50 bg-black px-3 py-1 text-xs font-bold text-[#D6A400]">
-                  {String(index + 1).padStart(2, "0")}
-                </div>
-                <span className="font-montserrat text-2xl font-bold text-white">{project.title}</span>
+    <section id="projects" className="section section_px editorial-section">
+      <div className="section-heading-row">
+        <div><p className="eyebrow">01 / Things you can explore</p><h2 className="editorial-heading">Work that <em>speaks.</em></h2></div>
+        <p className="section-aside">Live website concepts you can open, explore, and experience for yourself.</p>
+      </div>
+      <div className="featured-work">
+        {projects.projects.map((project, index) => {
+          const detail = projectDetails[index];
+          return (
+            <article className={`featured-card featured-${detail.tone}`} key={project.id}>
+              <Link href={project.url} target="_blank" rel="noopener noreferrer" className="featured-preview" aria-label={`Explore ${project.title} live website`}>
+                <div className="preview-browser" aria-hidden="true"><span /><span /><span /><small>{new URL(project.url).hostname}</small></div>
+                <span className="preview-marquee">{detail.marquee}</span>
+                <span className="preview-foot">{detail.category}<span>↗</span></span>
+              </Link>
+              <div className="featured-caption">
+                <div className="featured-number">{detail.number}</div>
+                <div><p className="eyebrow">{detail.category}</p><h3>{project.title}</h3><p>{detail.detail}</p></div>
+                <Link href={project.url} target="_blank" rel="noopener noreferrer" className="project-open" aria-label={`Visit ${project.title} live website`}>↗</Link>
               </div>
-
-              <div className="flex flex-1 flex-col gap-4 p-5">
-                <h3 className="project-h3 text-lg leading-snug">
-                  {project.title}
-                </h3>
-
-                <p className="project-p leading-6">
-                  {project.description}
-                </p>
-
-                <div className="flex flex-wrap gap-2">
-                  {project.stacks
-                    .filter(Boolean)
-                    .slice(0, 5)
-                    .map((stack) => (
-                      <span key={stack} className="mustard-pill">
-                        {stack}
-                      </span>
-                    ))}
-                </div>
-
-                <div className="mt-auto pt-2">
-                  <Link href={project.url} target="_blank" rel="noopener noreferrer" className="mustard-button">
-                    Visit live website <span aria-hidden="true">↗</span>
-                  </Link>
-                  </div>
-              </div>
-            </motion.article>
-          ))}
-        </div>
-      </main>
+            </article>
+          );
+        })}
+      </div>
     </section>
   );
-};
-
-export default Projects;
+}

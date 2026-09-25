@@ -85,6 +85,9 @@ const MobileNav = ({ links, show, onClose }: MobileNavProps) => {
                 </Link>
               </motion.li>
             ))}
+            <motion.li variants={itemVariants}>
+              <Link href="#contact" onClick={onClose} className="link">Contact</Link>
+            </motion.li>
           </ul>
         </motion.nav>
       )}

@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
-import { z } from 'zod';
 import { FaWhatsapp, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
@@ -16,30 +15,23 @@ import FormInput from './FormInput';
 
 import { socials } from '@/constants';
 import { sendMail } from '@/lib/actions/mail.actions';
-import { parseStringify, motionValues } from '@/lib/utils';
-
-export const formSchema = z.object({
-  name: z.string().min(2),
-  email: z.string().email(),
-  message: z.string().min(10),
-});
+import { motionValues } from '@/lib/utils';
+import { contactFormSchema, ContactFormValues } from '@/components/src/lib/schemas/contact.schema';
 
 const ContactForm = () => {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
 
-  const form = useForm({
-    resolver: zodResolver(formSchema),
+  const form = useForm<ContactFormValues>({
+    resolver: zodResolver(contactFormSchema),
     defaultValues: { name: '', email: '', message: '' },
   });
 
-  const onSubmit = async (values: any) => {
+  const onSubmit = async (values: ContactFormValues) => {
     try {
       setStatus('sending');
 
-      await sendMail(values)
-        .then((res) => parseStringify(res))
-        .then((data) => console.log(data));
-
+      const result = await sendMail(values);
+      if (!result.sent) throw new Error('Message delivery failed');
       form.reset();
       setStatus('success');
     } catch (err) {
@@ -71,7 +63,7 @@ const ContactForm = () => {
         )}
 
         {status === 'error' && (
-          <p className="about-desc">Something went wrong. Please try again.</p>
+          <p className="about-desc">The form could not deliver your message. Please email me directly.</p>
         )}
       </motion.form>
     </Form>
@@ -104,8 +96,10 @@ const Contact = () => {
         </motion.h3>
 
         <motion.p className="about-desc max-w-3xl text-center" {...motionValues}>
-          If your team needs someone who can organize messy systems, improve workflows, support remote operations, and keep digital business processes moving, send me a message.
+          Have a website idea, a role to fill, or an operational problem to solve? Tell me what you are building.
         </motion.p>
+
+        <Link href="mailto:Marvellousolabode@gmail.com" className="mustard-button">Email me directly ↗</Link>
 
         <div className="contact-wrapper">
           <ContactForm />

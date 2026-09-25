@@ -3,7 +3,7 @@
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
 import { z } from 'zod';
-import { formSchema } from '@/components/Contact';
+import { contactFormSchema } from '@/components/src/lib/schemas/contact.schema';
 
 const { EMAIL: email, PASSWORD: password } = process.env;
 
@@ -11,7 +11,10 @@ export const sendMail = async ({
   name: userName,
   email: userEmail,
   message: userMessage,
-}: z.infer<typeof formSchema>) => {
+}: z.infer<typeof contactFormSchema>) => {
+  if (!email || !password) {
+    return { sent: false };
+  }
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 465,
@@ -30,22 +33,11 @@ export const sendMail = async ({
     text: userMessage,
   };
 
-  const sendMailPromise = () => {
-    new Promise<string>((resolve, reject) => {
-      transporter.sendMail(mailOptions, (error) => {
-        if (!error) {
-          resolve('Email sent.');
-        } else {
-          reject(error.message);
-        }
-      });
-    });
-  };
-
   try {
-    await sendMailPromise();
-    return JSON.stringify({ sent: true });
+    await transporter.sendMail(mailOptions);
+    return { sent: true };
   } catch (error) {
-    return JSON.stringify({ sent: false });
+    console.error('Portfolio contact delivery failed', error);
+    return { sent: false };
   }
 };
