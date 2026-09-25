@@ -33,6 +33,18 @@ export default function Projects() {
             </article>
           );
         })}
+        <article className="featured-card featured-regional">
+          <Link href="/regional-os-demo" className="featured-preview" aria-label="Explore the Regional OS interactive walkthrough">
+            <Image src="/images/regional-os-preview.jpg" alt="Fictional Regional OS demo showing a weekly report awaiting validation" fill sizes="(max-width: 680px) 100vw, 1100px" className="featured-preview-image" />
+            <div className="preview-browser" aria-hidden="true"><span /><span /><span /><small>Interactive walkthrough · fictional data</small></div>
+            <span className="preview-foot">Operations system / Sample demo<span aria-hidden="true">↗</span></span>
+          </Link>
+          <div className="featured-caption">
+            <div className="featured-number">04</div>
+            <div><p className="eyebrow">Operations system / Sample demo</p><h3>Regional OS</h3><p>I built role-based workspaces to connect weekly report checks, owned follow-up actions, and finance exception review. Explore a simplified walkthrough with fictional data; the private system and its business outcomes are not represented as a live public deployment.</p><Link href="/work/bni-operations" className="project-case-link">Read the operations case study ↗</Link></div>
+            <Link href="/regional-os-demo" className="project-open" aria-label="Try the Regional OS walkthrough">→</Link>
+          </div>
+        </article>
       </div>
     </section>
   );
