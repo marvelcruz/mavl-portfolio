@@ -3,11 +3,11 @@ import Link from "next/link";
 const studies = [
   {
     label: "01 / CRM & member lifecycle",
-    title: "Making every follow-up easier to own.",
-    context: "BNI Alberta South · 18 chapters",
-    challenge: "Visitor inquiries, member updates, and renewals needed clear ownership across chapter and regional teams.",
-    contribution: "I supported the move from Keap to GoHighLevel, organized CRM pipeline stages and follow-up tasks, and worked with forms, Zapier, and Alchemer to support the member lifecycle. I also documented handoffs for the teams using those systems.",
-    result: "The work gave teams a clearer record of each person’s stage, the next follow-up, and who was responsible for it.",
+    title: "One member journey across 18 chapters.",
+    context: "BNI Alberta South · 18 chapters · Nov 2021–present",
+    challenge: "A visitor could move from an inquiry to a chapter visit, application, membership, and renewal. Each handoff needed an owner and a usable record across regional and chapter teams.",
+    contribution: "I supported the Keap to GoHighLevel transition, maintained visitor, member, and renewal pipeline stages, connected forms and follow-up tasks with Zapier and Alchemer, and documented handoffs for the people using the system.",
+    result: "The working process connected intake, status, ownership, next action, and renewal support in the CRM. This describes the system and my role; it is not a claim of measured conversion or revenue growth.",
     tools: "GoHighLevel · Keap · Zapier · Alchemer",
   },
   {
@@ -105,8 +105,8 @@ export default function CaseStudies() {
           </div>
         </div>
         <div className="revenue-outcome">
-          <strong>How this supported revenue</strong>
-          <p>A visible pipeline and clear handoffs helped teams pursue new memberships, support renewals, and resolve payment questions. The example shows my operational contribution; it does not attribute a revenue figure or conversion increase to my work.</p>
+          <strong>Documented scope: 18 chapters</strong>
+          <p>My work supported the visitor and member lifecycle across the region, from intake and follow-up to renewals and payment questions. The 18-chapter figure describes the operating scope; a revenue total or conversion lift has not been verified.</p>
         </div>
         <p className="revenue-disclosure">Reconstructed from my BNI Alberta South CRM and operations responsibilities. The paths summarize the work; they are not an export of the organization’s production process or member data.</p>
       </div>
