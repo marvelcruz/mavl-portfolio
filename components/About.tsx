@@ -15,8 +15,8 @@ export default function About() {
           systems that help teams grow and deliver.
         </p>
         <div className="hero-actions">
-          <Link href="#impact" className="mustard-button">Explore my work <span aria-hidden="true">↗</span></Link>
-          <Link href="#projects" className="outline-button">See live websites <span aria-hidden="true">↗</span></Link>
+          <Link href="#impact" className="mustard-button">Explore my work <span aria-hidden="true">→</span></Link>
+          <Link href="#projects" className="outline-button">See live websites <span aria-hidden="true">→</span></Link>
         </div>
         <div className="hero-proof" aria-label="Experience highlights">
           <div><strong>5+</strong><span>years working remotely</span></div>
@@ -32,10 +32,10 @@ export default function About() {
         </div>
         <div className="candid-frame">
           <Image src="/images/marvellous-candid.jpg" alt="A candid portrait of Marvellous" fill className="candid-image" sizes="(max-width: 680px) 110px, 150px" />
-          <span>Off the clock ↗</span>
+          <span>Off the clock →</span>
         </div>
         <div className="hero-note hero-note-top">Design × systems<br /><strong>one curious mind.</strong></div>
-        <div className="hero-note hero-note-bottom">Based in Nigeria<br /><strong>working across borders ↗</strong></div>
+        <div className="hero-note hero-note-bottom">Based in Nigeria<br /><strong>working across borders →</strong></div>
       </div>
     </section>
   );

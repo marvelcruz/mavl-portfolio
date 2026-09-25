@@ -99,7 +99,7 @@ const Contact = () => {
           Have a website idea, a role to fill, or an operational problem to solve? Tell me what you are building.
         </motion.p>
 
-        <Link href="mailto:Marvellousolabode@gmail.com" className="mustard-button">Email me directly ↗</Link>
+        <Link href="mailto:Marvellousolabode@gmail.com" className="mustard-button">Email me directly →</Link>
 
         <div className="contact-wrapper">
           <ContactForm />
