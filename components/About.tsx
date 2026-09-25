@@ -17,6 +17,7 @@ export default function About() {
         <div className="hero-actions">
           <Link href="#impact" className="mustard-button">Explore my work <span aria-hidden="true">→</span></Link>
           <Link href="#projects" className="outline-button">See live websites <span aria-hidden="true">→</span></Link>
+          <Link href="/resume/Marvellous-Olabode-Resume.pdf" target="_blank" rel="noopener noreferrer" className="outline-button">View résumé <span aria-hidden="true">↗</span></Link>
         </div>
         <div className="hero-proof" aria-label="Experience highlights">
           <div><strong>5+</strong><span>years working remotely</span></div>

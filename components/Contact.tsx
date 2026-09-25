@@ -100,6 +100,7 @@ const Contact = () => {
         </motion.p>
 
         <Link href="mailto:Marvellousolabode@gmail.com" className="mustard-button">Email me directly →</Link>
+        <Link href="/resume/Marvellous-Olabode-Resume.pdf" target="_blank" rel="noopener noreferrer" className="outline-button">Download résumé (PDF) ↗</Link>
 
         <div className="contact-wrapper">
           <ContactForm />
