@@ -20,6 +20,7 @@ export default function SkyeCaseStudy() {
     role: "Concept, experience design & frontend",
     experience: "Treatment discovery + consultation path",
     brief: "Make a complex treatment menu approachable.",
+    context: "A visitor may know their concern without knowing which service to look for. The interface needs to help them explore the menu, understand options, and reach the clinic for a professional assessment.",
     choices: [
       { number: "01", title: "An editorial first impression", detail: "A cinematic opening establishes the visual language, then directs the visitor toward treatments." },
       { number: "02", title: "Browse by need", detail: "Treatment categories and a focus-area finder help visitors narrow a large menu before a clinician assesses suitability." },

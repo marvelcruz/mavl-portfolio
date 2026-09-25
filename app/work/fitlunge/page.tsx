@@ -20,6 +20,7 @@ export default function FitLungeCaseStudy() {
     role: "Concept, experience design & frontend",
     experience: "Visual introduction + program journey",
     brief: "Give an abstract program a visible journey.",
+    context: "A wellness program can sound like a collection of promises. The experience instead shows the rhythm of participation, what is included, and where a visitor can learn more before applying.",
     choices: [
       { number: "01", title: "Start with a person, not a product list", detail: "The opening visual presents a lifestyle context before the visitor sees program details or pricing." },
       { number: "02", title: "Explain the structure", detail: "The program page lays out supervision, meal planning, community support, check-ins, and the staged journey." },

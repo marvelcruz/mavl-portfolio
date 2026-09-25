@@ -15,6 +15,7 @@ type Project = {
   role: string;
   experience: string;
   brief: string;
+  context: string;
   choices: { number: string; title: string; detail: string }[];
   journeyTitle: string;
   journeyIntro: string;
@@ -54,7 +55,7 @@ export default function ProjectCaseStudy({ project }: { project: Project }) {
           <div className={styles.intro}>
             <p className={styles.eyebrow}>Design approach</p>
             <h2 id="approach-heading">{project.brief}</h2>
-            <p>This is a live concept built around the brand and its public-facing offer. The case study describes the design and frontend experience, without implying a commissioned engagement or measured customer results.</p>
+            <p>{project.context}</p>
           </div>
           <div className={styles.choices}>
             {project.choices.map((choice) => (
@@ -83,7 +84,7 @@ export default function ProjectCaseStudy({ project }: { project: Project }) {
         </section>
 
         <footer className={styles.end}>
-          <div><p className={styles.eyebrow}>What this demonstrates</p><h2>{project.closing}</h2><p>The live site shows the visitor-facing paths described here. Portal links are entry points; this case study does not claim user adoption, clinical outcomes, bookings, or revenue impact.</p></div>
+          <div><p className={styles.eyebrow}>What this demonstrates</p><h2>{project.closing}</h2><p>These are public visitor experiences in a live concept. Private portal activity and measured commercial or clinical outcomes are not represented here.</p></div>
           <Link href={project.next.href} className={styles.next}>Next project: {project.next.label} →</Link>
         </footer>
       </div>
