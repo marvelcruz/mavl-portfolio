@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { motionValues } from "@/lib/utils";
 
@@ -49,10 +50,9 @@ const About = () => {
                 lineHeight: "1.75",
               }}
             >
-              I build the operational systems behind business growth: CRM
-              workflows, marketing operations, website updates, reporting
-              dashboards, event processes, and remote team systems that keep
-              organizations moving.
+              I build websites people can explore and the systems that help
+              businesses run. My work spans digital experiences, CRM workflows,
+              automation, reporting, and remote operations.
             </p>
 
             <p
@@ -62,24 +62,15 @@ const About = () => {
                 lineHeight: "1.75",
               }}
             >
-              For the last 5+ years, I have supported Canadian business teams
-              remotely from Nigeria, working across CRM administration, workflow
-              automation, digital operations, event systems, reporting, website
-              updates, social media coordination, QuickBooks support, and member
-              services.
+              For 5+ years I have supported Canadian business teams remotely
+              from Nigeria, including operations across 18 BNI chapters. I also
+              create websites for hospitality, healthcare, and wellness brands.
             </p>
 
-            <p
-              className="about-desc mb-5"
-              style={{
-                color: "rgba(255,255,255,0.85)",
-                lineHeight: "1.75",
-              }}
-            >
-              I organize complex systems, document repeatable workflows, connect
-              tools, and build digital experiences. Explore the live websites below
-              alongside my work supporting leaders and remote teams.
-            </p>
+            <div className="mb-6 flex flex-wrap gap-3">
+              <Link href="#projects" className="mustard-button">Explore live projects</Link>
+              <Link href="#impact" className="white-pill">See my operations impact</Link>
+            </div>
 
             <ul className="mb-5 ml-0 flex flex-col gap-2">
               {proofPoints.map(({ stat, label }, i) => (
@@ -114,19 +105,6 @@ const About = () => {
                 </li>
               ))}
             </ul>
-
-            <p
-              className="about-desc mb-4"
-              style={{
-                color: "rgba(255,255,255,0.85)",
-                lineHeight: "1.75",
-              }}
-            >
-              Core systems I work with include GoHighLevel, Zapier, Google
-              Workspace, BNI Connect, QuickBooks, WordPress, Eventbrite, Asana,
-              ClickUp, Notion, Canva, Meta Business Suite, HubSpot, Zoho CRM,
-              React, Vercel, SQL, and Tableau.
-            </p>
 
             <p
               className="about-desc italic"

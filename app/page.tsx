@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <Fragment>
       <About />
+      <Projects />
       <Impact />
       <Services />
-      <Projects />
       <Recognition />
       <Contact />
     </Fragment>

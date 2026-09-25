@@ -77,7 +77,7 @@ export const services = {
 export const projects = {
   title: "Selected Websites",
   description:
-    "Explore live websites I have built and developed. My operations and CRM work is highlighted in the Impact section above.",
+    "Explore live websites I have built and developed. My operations and CRM work follows in the Impact section.",
   projects: [
     {
       id: "cosmo",
