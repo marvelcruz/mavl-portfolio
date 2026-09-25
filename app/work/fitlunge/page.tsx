@@ -4,6 +4,7 @@ import ProjectCaseStudy from "@/components/ProjectCaseStudy";
 export const metadata: Metadata = {
   title: "FitLunge case study | Marvellous Olabode",
   description: "A live wellness website concept by Marvellous Olabode, presenting a lifestyle-led introduction, program journey, plans, and an application path.",
+  alternates: { canonical: "/work/fitlunge" },
 };
 
 export default function FitLungeCaseStudy() {

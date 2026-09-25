@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mavl-portfolio-wg6f.vercel.app"),
   title: "Marvellous Olabode | Revenue Operations, CRM Automation & Business Systems",
   description:
     "Marvellous Olabode works across revenue operations, CRM automation, business systems, and creative website experiences. Explore selected operations work and live web concepts.",
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Marvellous Olabode" }],
   creator: "Marvellous Olabode",
+  alternates: { canonical: "/" },
   icons: {
     icon: "/icons/logo.ico",
   },

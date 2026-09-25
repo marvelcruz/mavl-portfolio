@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mavl-portfolio-wg6f.vercel.app"),
   title: "COSMO Bar case study | Marvellous Olabode",
   description: "How Marvellous Olabode designed and built a multi-page hospitality website concept for COSMO Bar in Kano, with an interactive occasion-to-menu pairing journey.",
+  alternates: { canonical: "/work/cosmo" },
   openGraph: {
     title: "COSMO Bar — a hospitality website concept",
     description: "A closer look at the design, build, and interactive guest journey by Marvellous Olabode.",

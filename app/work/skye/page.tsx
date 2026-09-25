@@ -4,6 +4,7 @@ import ProjectCaseStudy from "@/components/ProjectCaseStudy";
 export const metadata: Metadata = {
   title: "Skye Medical Aesthetics case study | Marvellous Olabode",
   description: "A live clinic website concept by Marvellous Olabode, connecting treatment discovery, a finder, consultation entry, and separate client and staff access.",
+  alternates: { canonical: "/work/skye" },
 };
 
 export default function SkyeCaseStudy() {

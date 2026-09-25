@@ -63,7 +63,15 @@ const ContactForm = () => {
         )}
 
         {status === 'error' && (
-          <p className="about-desc">The form could not deliver your message. Please email me directly.</p>
+          <p className="about-desc">
+            The form could not deliver your message.{' '}
+            <Link
+              href={`mailto:Marvellousolabode@gmail.com?subject=${encodeURIComponent(`Portfolio inquiry from ${form.getValues('name')}`)}&body=${encodeURIComponent(`${form.getValues('message')}\n\nFrom: ${form.getValues('name')} (${form.getValues('email')})`)}`}
+              className="underline underline-offset-4"
+            >
+              Open your email draft instead →
+            </Link>
+          </p>
         )}
       </motion.form>
     </Form>
