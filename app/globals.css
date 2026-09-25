@@ -507,8 +507,22 @@ body::after {
 .case-card dt { color: #fff; font-size: .77rem; font-weight: 800; }
 .case-card dd { color: rgba(255,255,255,.67); font-size: .83rem; line-height: 1.65; }
 .case-tools { margin-top: auto; padding-top: 24px; color: rgba(255,255,255,.48); font-size: .68rem; letter-spacing: .03em; }
+.workflow-example { margin-top: 22px; padding: clamp(25px, 4vw, 52px); border: 1px solid rgba(255,255,255,.2); border-radius: 12px; background: #d7d1b8; color: #24291e; }
+.workflow-example .eyebrow { color: #63561f; }
+.workflow-intro { display: grid; grid-template-columns: 1.2fr .8fr; gap: 35px; align-items: end; }
+.workflow-intro h3 { max-width: 660px; margin-top: 17px; font-size: clamp(2rem, 4vw, 4rem); font-weight: 850; letter-spacing: -.065em; line-height: 1.05; }
+.workflow-intro > p { max-width: 440px; color: #454a3d; font-size: .9rem; line-height: 1.65; }
+.workflow-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 38px; list-style: none; }
+.workflow-steps li { display: flex; flex-direction: column; min-height: 245px; padding: 23px; border: 1px solid rgba(36,41,30,.22); background: rgba(255,255,255,.35); }
+.workflow-number { color: #746225; font-size: .75rem; font-weight: 800; }
+.workflow-steps h4 { margin: 22px 0 10px; font-size: 1.3rem; font-weight: 800; letter-spacing: -.04em; }
+.workflow-steps li > p { color: #41483d; font-size: .8rem; line-height: 1.6; }
+.workflow-role { margin-top: auto; padding-top: 20px; color: #605326; font-size: .72rem; font-weight: 800; }
+.workflow-note { margin-top: 19px; color: #51554a; font-size: .72rem; line-height: 1.55; }
 @media (max-width: 1024px) { .hero { grid-template-columns: 1fr; padding-top: 135px; gap: 25px; } .hero-visual { height: 490px; max-width: 560px; width: 100%; margin: 0 auto; } }
 @media (max-width: 680px) { .hero { padding-top: 120px; } .hero-heading { font-size: clamp(3.3rem, 13vw, 5rem); } .hero-proof { margin-top: 36px; } .hero-proof div { padding: 0 11px; } .hero-proof strong { font-size: 1.5rem; } .hero-visual { height: 390px; } .candid-frame { width: 105px; height: 135px; right: 0; bottom: 5%; } .hero-note { font-size: .55rem; padding: 9px; } .hero-note strong { font-size: .62rem; } .section-heading-row { display: block; } .section-aside { margin-top: 16px; } .featured-work { grid-template-columns: 1fr; } .featured-card:first-child { grid-column: auto; } .featured-preview, .featured-card:first-child .featured-preview { min-height: 300px; } .featured-card:not(:first-child) .preview-marquee, .preview-marquee { font-size: clamp(3.1rem, 12vw, 6rem); } .featured-caption { grid-template-columns: 26px 1fr 40px; gap: 9px; } .impact-feature { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { .featured-preview, .project-open { transition: none; } html { scroll-behavior: auto; } }
 @media (max-width: 800px) { .case-grid { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .workflow-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } .workflow-intro { grid-template-columns: 1fr; gap: 14px; } }
+@media (max-width: 540px) { .workflow-steps { grid-template-columns: 1fr; } .workflow-steps li { min-height: 0; } .workflow-steps h4 { margin-top: 12px; } }
 @media (max-width: 480px) { .case-card dl div { grid-template-columns: 1fr; gap: 6px; } }
