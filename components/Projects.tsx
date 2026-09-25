@@ -2,9 +2,9 @@ import Link from "next/link";
 import { projects } from "@/constants";
 
 const projectDetails = [
-  { number: "01", category: "Hospitality / Live concept", tone: "cosmo", marquee: "COSMO", detail: "A playful, multi-page destination for food, drinks, events, and everything in between." },
-  { number: "02", category: "Healthcare / Live concept", tone: "skye", marquee: "SKYE", detail: "A polished clinic experience connecting treatment discovery with client and staff spaces." },
-  { number: "03", category: "Wellness / Live concept", tone: "fitlunge", marquee: "FITLUNGE", detail: "A lifestyle-led introduction to a medically supervised weight loss program." },
+  { number: "01", category: "Hospitality / Live concept", tone: "cosmo", marquee: "COSMO", detail: "A venue story, a multi-page menu, and an occasion-based pairing tool." },
+  { number: "02", category: "Medical aesthetics / Live concept", tone: "skye", marquee: "SKYE", detail: "Treatment discovery, a short finder, and a path to consultation." },
+  { number: "03", category: "Wellness / Live concept", tone: "fitlunge", marquee: "FITLUNGE", detail: "A visual introduction followed by a program and application journey." },
 ];
 
 export default function Projects() {
@@ -12,7 +12,7 @@ export default function Projects() {
     <section id="projects" className="section section_px editorial-section">
       <div className="section-heading-row">
         <div><p className="eyebrow">02 / Things you can explore</p><h2 className="editorial-heading">Work that <em>speaks.</em></h2></div>
-        <p className="section-aside">Live website concepts you can open, explore, and experience for yourself.</p>
+        <p className="section-aside">Explore the live builds or read how each visitor journey was designed.</p>
       </div>
       <div className="featured-work">
         {projects.projects.map((project, index) => {
@@ -26,7 +26,7 @@ export default function Projects() {
               </Link>
               <div className="featured-caption">
                 <div className="featured-number">{detail.number}</div>
-                <div><p className="eyebrow">{detail.category}</p><h3>{project.title}</h3><p>{detail.detail}</p>{detail.tone === "cosmo" && <Link href="/work/cosmo" className="project-case-link">Read the case study ↗</Link>}</div>
+                <div><p className="eyebrow">{detail.category}</p><h3>{project.title}</h3><p>{detail.detail}</p><Link href={`/work/${detail.tone}`} className="project-case-link">Read the case study ↗</Link></div>
                 <Link href={project.url} target="_blank" rel="noopener noreferrer" className="project-open" aria-label={`Visit ${project.title} live website`}>→</Link>
               </div>
             </article>
