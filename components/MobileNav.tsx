@@ -76,7 +76,7 @@ const MobileNav = ({ links, show, onClose }: MobileNavProps) => {
             {links.map(({ title, href }) => (
               <motion.li key={title} variants={itemVariants}>
                 <Link
-                  href={href}
+                  href={`/${href}`}
                   onClick={onClose}
                   className="link transition-opacity hover:opacity-70 focus:outline-none focus-visible:underline"
                   aria-label={`Go to ${title} section`}
@@ -86,7 +86,7 @@ const MobileNav = ({ links, show, onClose }: MobileNavProps) => {
               </motion.li>
             ))}
             <motion.li variants={itemVariants}>
-              <Link href="#contact" onClick={onClose} className="link">Contact</Link>
+              <Link href="/#contact" onClick={onClose} className="link">Contact</Link>
             </motion.li>
           </ul>
         </motion.nav>

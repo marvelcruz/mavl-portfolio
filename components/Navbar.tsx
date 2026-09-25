@@ -25,7 +25,7 @@ const Navbar = () => {
             {links.map(({ title, href }) => (
               <li key={title}>
                 <Link
-                  href={href}
+                  href={`/${href}`}
                   className="link"
                   aria-label={`Go to ${title} section`}
                 >
@@ -36,7 +36,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <Link href="#contact" className="nav-contact hidden lg:inline-flex">Start a conversation →</Link>
+        <Link href="/#contact" className="nav-contact hidden lg:inline-flex">Start a conversation →</Link>
 
         <Button
           className="hidden max-lg:flex-center"

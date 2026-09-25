@@ -29,7 +29,7 @@ const Footer = () => {
             {navLinks.map(({ label, href }) => (
               <Link
                 key={label}
-                href={href}
+                href={`/${href}`}
                 className="footer-p font-medium hover:opacity-60 transition-opacity"
                 aria-label={`Go to ${label} section`}
               >
