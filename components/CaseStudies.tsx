@@ -19,11 +19,11 @@ const studies = [
   },
 ];
 
-const workflow = [
-  { number: "01", stage: "Capture", detail: "A visitor or member submits an inquiry or form. The record enters the CRM for review.", role: "Forms & CRM setup" },
-  { number: "02", stage: "Qualify", detail: "Check the record, its chapter and lifecycle stage, and the information needed for a useful response.", role: "Record hygiene & stages" },
-  { number: "03", stage: "Hand off", detail: "Make the next action and owner visible so a regional or chapter team member can follow up.", role: "Tasks & handoff notes" },
-  { number: "04", stage: "Review", detail: "Use the pipeline and recurring reports to spot open items, renewals, or requests needing attention.", role: "Reporting & support" },
+const regionalOsFeatures = [
+  { number: "01", title: "Role-based workspaces", detail: "Separate routes and protected views for regional staff, chapter leaders, and members." },
+  { number: "02", title: "Weekly evidence cycle", detail: "Report slots track the reporting period, required uploads, validation state, and missing evidence." },
+  { number: "03", title: "Actions from reports", detail: "The report service consolidates findings into follow-up actions with supporting evidence and task links." },
+  { number: "04", title: "Finance exception review", detail: "QuickBooks transaction classification and receipt matching surface uncertain items for human review." },
 ];
 
 export default function CaseStudies() {
@@ -48,25 +48,24 @@ export default function CaseStudies() {
           </article>
         ))}
       </div>
-      <div className="workflow-example" aria-labelledby="workflow-heading">
+      <div className="workflow-example" aria-labelledby="regional-os-heading">
         <div className="workflow-intro">
           <div>
-            <p className="eyebrow">Inside the work / CRM handoff</p>
-            <h3 id="workflow-heading">From an inquiry to a clear next step.</h3>
+            <p className="eyebrow">Built project / Regional OS</p>
+            <h3 id="regional-os-heading">An operating system for a regional network.</h3>
           </div>
-          <p>One practical example of the kind of visitor and member lifecycle work I support: capture the request, clarify its status, assign the next action, and keep it visible.</p>
+          <p>I built a multi-workspace application to connect report evidence, operational tasks, member and chapter views, and finance review in one system.</p>
         </div>
         <ol className="workflow-steps">
-          {workflow.map((step) => (
+          {regionalOsFeatures.map((step) => (
             <li key={step.number}>
               <span className="workflow-number">{step.number}</span>
-              <h4>{step.stage}</h4>
+              <h4>{step.title}</h4>
               <p>{step.detail}</p>
-              <span className="workflow-role">My focus: {step.role}</span>
             </li>
           ))}
         </ol>
-        <p className="workflow-note">Reconstructed example based on my CRM and member operations work. It is an illustration of the approach, not a screenshot of BNI’s systems or a claim about a specific measured result.</p>
+        <p className="workflow-note">Feature descriptions verified against my private frontend and backend repositories. This is a code-backed project summary; deployment, user adoption, and business impact are not claimed here.</p>
       </div>
       <div className="revenue-example" aria-labelledby="revenue-heading">
         <div className="revenue-heading">
