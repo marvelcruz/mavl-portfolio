@@ -92,14 +92,23 @@ const Contact = () => {
         </motion.h2>
 
         <motion.h3 className="section-h3 max-w-3xl text-center" {...motionValues}>
-          I am open to remote roles and project opportunities in business operations, marketing operations, CRM administration, workflow automation, digital operations, and growth systems.
+          Need someone to connect operations, CRM, automation, and the customer experience? Let&apos;s talk.
         </motion.h3>
 
-        <motion.p className="about-desc max-w-3xl text-center" {...motionValues}>
-          Have a website idea, a role to fill, or an operational problem to solve? Tell me what you are building.
-        </motion.p>
-
-        <Link href="mailto:Marvellousolabode@gmail.com" className="mustard-button">Email me directly →</Link>
+        <div className="grid w-full max-w-4xl gap-5 md:grid-cols-2">
+          <motion.div {...motionValues} className="card-soft flex flex-col items-start gap-4 rounded-2xl p-6">
+            <span className="mustard-pill">For hiring teams</span>
+            <h3 className="project-h3 text-xl">Hire me for a role</h3>
+            <p className="project-p flex-1">Remote revenue operations, business operations, CRM administration, and automation.</p>
+            <Link href="mailto:Marvellousolabode@gmail.com?subject=Remote%20role%20inquiry" className="mustard-button">Discuss a role →</Link>
+          </motion.div>
+          <motion.div {...motionValues} className="card-soft flex flex-col items-start gap-4 rounded-2xl p-6">
+            <span className="mustard-pill">For clients</span>
+            <h3 className="project-h3 text-xl">Build a better workflow</h3>
+            <p className="project-p flex-1">Bring me a CRM problem, an operations process, or a digital experience you want to improve.</p>
+            <Link href="mailto:Marvellousolabode@gmail.com?subject=Project%20inquiry" className="mustard-button">Discuss a project →</Link>
+          </motion.div>
+        </div>
         <Link href="/resume/Marvellous-Olabode-Resume.pdf" target="_blank" rel="noopener noreferrer" className="outline-button">Download résumé (PDF) ↗</Link>
 
         <div className="contact-wrapper">

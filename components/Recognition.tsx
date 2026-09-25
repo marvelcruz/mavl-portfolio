@@ -32,9 +32,6 @@ const Recognition = () => {
                   className="object-contain p-3 transition-transform duration-700 group-hover:scale-[1.03]"
                 />
 
-                <div className="absolute left-4 top-4 rounded-full border border-[#D6A400]/50 bg-black px-3 py-1 text-xs font-bold text-[#D6A400]">
-                  Proof
-                </div>
               </div>
 
               <div className="flex flex-1 flex-col gap-4 p-5">

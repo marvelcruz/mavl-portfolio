@@ -85,99 +85,39 @@ export const projects = {
 };
 
 export const Recognition = {
-  title: "Recognition",
+  title: "Selected Recognition",
   description:
-    "Selected professional acknowledgments, milestones, and proof points from my work supporting business operations, systems, and remote teams.",
+    "Documented moments from my work with BNI Alberta South. The awards recognize the regional team; the anniversary message acknowledges my own tenure.",
   projects: [
     {
       id: "recognition-1",
-      title: "BNI Executive Directors of the Year Support",
+      title: "Executive Directors of the Year — team recognition",
       description:
-        "Contributed behind the scenes through operational, digital, and member-support systems during a period of major regional recognition.",
+        "Moji Ajele thanked the team and tagged me in her post about the Executive Directors of the Year award. The award belongs to the directors.",
       url: "",
       gitLink: "",
       src: "/images/Moji.png",
-      stacks: ["Operations Support", "Regional Systems"],
+      stacks: ["Team recognition"],
     },
     {
       id: "recognition-2",
-      title: "BNI Alberta South - Canadian Region of the Year",
+      title: "BNI Alberta South — Canadian Region of the Year",
       description:
-        "Supported operational systems, member communication, and chapter coordination during a period of national recognition.",
+        "The region received this 2022 award. I supported its operations and member-facing systems as part of the team.",
       url: "",
       gitLink: "",
       src: "/images/BNI.png",
-      stacks: ["Operations", "Member Engagement"],
-    },
-    {
-      id: "recognition-3",
-      title: "Operational Excellence Recognition",
-      description:
-        "Acknowledged for supporting systems and workflows that improved chapter operations, member services, and administrative consistency.",
-      url: "",
-      gitLink: "",
-      src: "/images/Asana111.png",
-      stacks: ["Process Support", "Workflow Management"],
+      stacks: ["Regional award"],
     },
     {
       id: "recognition-4",
-      title: "5-Year Anniversary at BNI",
+      title: "Five years with BNI Alberta South",
       description:
-        "Recognized for sustained contribution and long-term remote operational support.",
+        "Aarti congratulated me on five years of work with BNI Alberta South in a public LinkedIn post.",
       url: "",
       gitLink: "",
       src: "/images/arti.png",
-      stacks: ["Remote Operations", "Long-Term Support"],
-    },
-    {
-      id: "recognition-5",
-      title: "Leadership Appreciation",
-      description:
-        "Received appreciation for responsiveness, follow-through, and behind-the-scenes operational support.",
-      url: "",
-      gitLink: "",
-      src: "/images/Arthy333.png",
-      stacks: ["Leadership Support"],
-    },
-    {
-      id: "recognition-6",
-      title: "Team Recognition",
-      description:
-        "Recognized by team members for dependable coordination, communication, and execution support.",
-      url: "",
-      gitLink: "",
-      src: "/images/Arthy22.png",
-      stacks: ["Team Support"],
-    },
-    {
-      id: "recognition-7",
-      title: "Colleague Testimonial",
-      description:
-        "Professional acknowledgment from a colleague highlighting reliability, responsiveness, and support quality.",
-      url: "",
-      gitLink: "",
-      src: "/images/Megan.png",
-      stacks: ["Professional Endorsement"],
-    },
-    {
-      id: "recognition-8",
-      title: "Professional Endorsement",
-      description:
-        "Received professional appreciation for service, communication, and operational follow-through.",
-      url: "",
-      gitLink: "",
-      src: "/images/Sarah.png",
-      stacks: ["Client Support"],
-    },
-    {
-      id: "recognition-9",
-      title: "Client Appreciation",
-      description:
-        "Appreciation received for practical support, execution speed, and operational responsiveness.",
-      url: "",
-      gitLink: "",
-      src: "/images/Arthy44.png",
-      stacks: ["Client Appreciation"],
+      stacks: ["Tenure acknowledgement"],
     },
   ],
 };
