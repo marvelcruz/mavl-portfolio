@@ -28,7 +28,32 @@ const regionalOsFeatures = [
   { number: "04", title: "Finance exception review", detail: "QuickBooks transaction classification and receipt matching surface uncertain items for human review." },
 ];
 
-export default function CaseStudies() {
+export default function CaseStudies({ full = false }: { full?: boolean }) {
+  if (!full) {
+    return (
+      <section id="case-studies" className="section section_px editorial-section">
+        <div className="section-heading-row">
+          <div><p className="eyebrow">Selected work / Go deeper</p><h2 className="editorial-heading">The work <em>behind it.</em></h2></div>
+          <p className="section-aside">Two closer looks at the systems and workflows I build.</p>
+        </div>
+        <div className="case-teaser-grid">
+          <article className="case-teaser">
+            <p className="eyebrow">BNI Alberta South / Operations</p>
+            <h3>One member journey across 18 chapters.</h3>
+            <p>CRM migration, visitor and renewal follow-up, events, reporting, and finance support across a regional network.</p>
+            <Link href="/work/bni-operations">Read the BNI case study <span aria-hidden="true">↗</span></Link>
+          </article>
+          <article className="case-teaser case-teaser-accent">
+            <p className="eyebrow">Built project / Regional OS</p>
+            <h3>Turn weekly reports into next actions.</h3>
+            <p>Explore a sample walkthrough of report evidence, follow-up tasks, and finance exception review.</p>
+            <Link href="/regional-os-demo">Explore the walkthrough <span aria-hidden="true">↗</span></Link>
+          </article>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section id="case-studies" className="section section_px editorial-section">
       <div className="section-heading-row">
