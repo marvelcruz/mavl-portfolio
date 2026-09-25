@@ -6,17 +6,16 @@ export default function About() {
     <section id="about" className="hero section section_px">
       <div className="hero-copy">
         <p className="eyebrow"><span className="status-dot" /> Portfolio / Marvellous Olabode</p>
-        <h1 className="hero-heading">I make ambitious<br />ideas <em>work.</em></h1>
-        <p className="hero-lede">Creative websites. Revenue operations. Automation that keeps the whole business moving.</p>
+        <h1 className="hero-heading">The experience.<br />The <em>engine.</em></h1>
+        <p className="hero-lede">I build websites people want to explore and the CRM, automations, and operations that keep the journey moving.</p>
         <p className="hero-intro">
-          I’m Marvellous. I bring design, development, revenue operations, and
-          execution together. From the first impression on a website to the CRM,
-          follow-up, reporting, and support processes behind it, I build the
-          systems that help teams grow and deliver.
+          I’m Marvellous Olabode. For more than five years, I’ve helped a regional
+          network run its member and revenue workflows. I also design and build
+          live digital experiences. Explore both sides of my work below.
         </p>
         <div className="hero-actions">
-          <Link href="#impact" className="mustard-button">Explore my work <span aria-hidden="true">→</span></Link>
-          <Link href="#projects" className="outline-button">See live websites <span aria-hidden="true">→</span></Link>
+          <Link href="#case-studies" className="mustard-button">Explore the systems <span aria-hidden="true">→</span></Link>
+          <Link href="#projects" className="outline-button">See live projects <span aria-hidden="true">→</span></Link>
           <Link href="/resume/Marvellous-Olabode-Resume.pdf" target="_blank" rel="noopener noreferrer" className="outline-button">View résumé <span aria-hidden="true">↗</span></Link>
         </div>
         <div className="hero-proof" aria-label="Experience highlights">
