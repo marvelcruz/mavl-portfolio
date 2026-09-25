@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <section id="projects" className="section section_px editorial-section">
       <div className="section-heading-row">
-        <div><p className="eyebrow">01 / Things you can explore</p><h2 className="editorial-heading">Work that <em>speaks.</em></h2></div>
+        <div><p className="eyebrow">02 / Things you can explore</p><h2 className="editorial-heading">Work that <em>speaks.</em></h2></div>
         <p className="section-aside">Live website concepts you can open, explore, and experience for yourself.</p>
       </div>
       <div className="featured-work">

@@ -1,6 +1,6 @@
 export const links = [
-  { title: "Work", href: "#projects" },
-  { title: "Impact", href: "#impact" },
+  { title: "Operations", href: "#impact" },
+  { title: "Web Projects", href: "#projects" },
   { title: "What I do", href: "#services" },
   { title: "Recognition", href: "#recognition" },
 ];
@@ -16,56 +16,36 @@ export const details = {
 };
 
 export const services = {
-  title: "Services",
+  title: "What I Bring to the Table",
   subtitle:
-    "The systems I build, manage, and improve for remote teams, service businesses, and growth-focused organizations.",
+    "A connected skill set across customer acquisition, operations, technology, and delivery.",
   values: [
     {
-      title: "Business Operations Support",
-      desc: "I help remote teams stay organized across inboxes, calendars, shared drives, reporting sheets, documentation, access permissions, member records, and recurring operational workflows.",
+      title: "Revenue Operations & CRM",
+      desc: "I turn scattered inquiries into managed journeys: lead capture, pipeline stages, follow-ups, renewals, reporting, and clear ownership across a team.",
       tools: [
-        "Google Workspace",
-        "Asana",
-        "ClickUp",
-        "Notion",
-        "Zoom",
-        "QuickBooks Support",
+        "GoHighLevel", "Keap", "HubSpot", "Salesforce", "Pipeline Design",
       ],
     },
     {
-      title: "CRM & Workflow Automation",
-      desc: "I build and maintain CRM workflows, follow-up systems, onboarding processes, registration tracking, and automation workflows that reduce manual coordination and improve operational accuracy.",
+      title: "Automation & Business Systems",
+      desc: "I map repetitive work, connect tools, create useful automations, and document the process so the system works for the people using it.",
       tools: [
-        "GoHighLevel",
-        "Zapier",
-        "Keap",
-        "HubSpot",
-        "Zoho CRM",
-        "BNI Connect",
+        "Zapier", "Forms", "Dashboards", "SOPs", "Reporting",
       ],
     },
     {
-      title: "Marketing Operations",
-      desc: "I support the systems behind consistent marketing execution: content calendars, social media coordination, campaign planning, event promotion, digital assets, and reporting workflows.",
+      title: "Websites & Growth Experiences",
+      desc: "I design and build websites, landing pages, and digital journeys that make a brand clear, useful, and easy to engage with, alongside SEO foundations and analytics.",
       tools: [
-        "Meta Business Suite",
-        "LinkedIn",
-        "Instagram",
-        "Facebook",
-        "Canva",
-        "Mailchimp",
+        "React", "Next.js", "WordPress", "SEO Foundations", "Vercel",
       ],
     },
     {
-      title: "Website & Digital Systems",
-      desc: "I build and support websites, landing pages, lead-capture flows, forms, service pages, portfolio pages, and simple digital systems that help businesses look credible and collect inquiries.",
+      title: "Operations & Service Delivery",
+      desc: "I support leaders and remote teams with inquiries and tickets, access, calendars, events, finance coordination, customer communication, and dependable follow-through.",
       tools: [
-        "WordPress",
-        "React",
-        "Vercel",
-        "Figma",
-        "SQL",
-        "Tableau",
+        "Google Workspace", "QuickBooks", "Eventbrite", "Asana", "ClickUp",
       ],
     },
   ],
