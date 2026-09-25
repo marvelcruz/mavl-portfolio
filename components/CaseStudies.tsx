@@ -68,6 +68,46 @@ export default function CaseStudies() {
         </ol>
         <p className="workflow-note">Reconstructed example based on my CRM and member operations work. It is an illustration of the approach, not a screenshot of BNI’s systems or a claim about a specific measured result.</p>
       </div>
+      <div className="revenue-example" aria-labelledby="revenue-heading">
+        <div className="revenue-heading">
+          <p className="eyebrow">A deeper look / revenue operations</p>
+          <h3 id="revenue-heading">The path from interest to membership revenue.</h3>
+          <p>Revenue depended on several teams and systems working together. My contribution was to keep the CRM, follow-up, administrative handoffs, and payment support connected so opportunities and renewals did not lose their next step.</p>
+        </div>
+        <div className="revenue-map">
+          <div className="revenue-entry">
+            <span>01 / Intake and routing</span>
+            <h4>Make the opportunity visible</h4>
+            <p>Bring visitor inquiries and member records into a usable pipeline; check chapter, status, and ownership before follow-up.</p>
+            <small>My work: forms, CRM records, pipeline stages</small>
+          </div>
+          <div className="revenue-branches" aria-label="Two revenue paths">
+            <div>
+              <span>02A / New membership</span>
+              <h4>Support the conversion path</h4>
+              <p>Track visitor follow-up and application status, flag unanswered requests, and hand the right action to the chapter or regional team.</p>
+              <small>My work: follow-up tasks, status checks, handoffs</small>
+            </div>
+            <div>
+              <span>02B / Existing membership</span>
+              <h4>Protect the renewal path</h4>
+              <p>Keep renewal records and open questions visible so members receive timely support before administrative issues stall progress.</p>
+              <small>My work: renewal pipeline, inquiries, access support</small>
+            </div>
+          </div>
+          <div className="revenue-close">
+            <span>03 / Close the loop</span>
+            <h4>Reconcile, resolve, report</h4>
+            <p>Support payment and QuickBooks reconciliation, investigate exceptions with the responsible team, and maintain recurring reporting for leadership.</p>
+            <small>My work: finance support, exception follow-through, reporting</small>
+          </div>
+        </div>
+        <div className="revenue-outcome">
+          <strong>How this supported revenue</strong>
+          <p>A visible pipeline and clear handoffs helped teams pursue new memberships, support renewals, and resolve payment questions. The example shows my operational contribution; it does not attribute a revenue figure or conversion increase to my work.</p>
+        </div>
+        <p className="revenue-disclosure">Reconstructed from my BNI Alberta South CRM and operations responsibilities. The paths summarize the work; they are not an export of the organization’s production process or member data.</p>
+      </div>
     </section>
   );
 }

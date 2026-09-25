@@ -519,10 +519,29 @@ body::after {
 .workflow-steps li > p { color: #41483d; font-size: .8rem; line-height: 1.6; }
 .workflow-role { margin-top: auto; padding-top: 20px; color: #605326; font-size: .72rem; font-weight: 800; }
 .workflow-note { margin-top: 19px; color: #51554a; font-size: .72rem; line-height: 1.55; }
+.revenue-example { margin-top: 22px; padding: clamp(25px, 4vw, 52px); border: 1px solid rgba(255,255,255,.2); border-radius: 12px; background: #17231d; color: #f5f1e6; }
+.revenue-heading { display: grid; grid-template-columns: 1fr minmax(230px, .6fr); column-gap: 45px; align-items: end; }
+.revenue-heading .eyebrow { grid-column: 1 / -1; color: var(--mustard); }
+.revenue-heading h3 { max-width: 780px; margin-top: 17px; font-size: clamp(2.2rem, 4.5vw, 4.5rem); line-height: 1.02; letter-spacing: -.065em; font-weight: 850; }
+.revenue-heading > p:last-child { color: #c6d0c6; font-size: .9rem; line-height: 1.65; }
+.revenue-map { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr) minmax(0, 1fr); gap: 10px; margin-top: 42px; }
+.revenue-entry, .revenue-close, .revenue-branches > div { display: flex; flex-direction: column; padding: clamp(18px, 2.4vw, 32px); border: 1px solid rgba(245,241,230,.24); background: rgba(255,255,255,.045); }
+.revenue-entry, .revenue-close { min-height: 360px; }
+.revenue-branches { display: grid; grid-template-rows: 1fr 1fr; gap: 10px; }
+.revenue-map span { color: var(--mustard); font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.revenue-map h4 { margin: 20px 0 10px; font-size: clamp(1.15rem, 2vw, 1.7rem); letter-spacing: -.04em; line-height: 1.12; font-weight: 800; }
+.revenue-map p { color: #c6d0c6; font-size: .8rem; line-height: 1.6; }
+.revenue-map small { margin-top: auto; padding-top: 22px; color: #d6bb69; font-size: .68rem; line-height: 1.5; }
+.revenue-outcome { display: grid; grid-template-columns: 1fr 2fr; gap: 28px; margin-top: 10px; padding: 24px 30px; background: #d7d1b8; color: #24291e; }
+.revenue-outcome strong { font-size: 1.15rem; line-height: 1.2; }
+.revenue-outcome p { color: #424a3e; font-size: .82rem; line-height: 1.65; }
+.revenue-disclosure { margin-top: 17px; color: #aab8ad; font-size: .7rem; line-height: 1.55; }
 @media (max-width: 1024px) { .hero { grid-template-columns: 1fr; padding-top: 135px; gap: 25px; } .hero-visual { height: 490px; max-width: 560px; width: 100%; margin: 0 auto; } }
 @media (max-width: 680px) { .hero { padding-top: 120px; } .hero-heading { font-size: clamp(3.3rem, 13vw, 5rem); } .hero-proof { margin-top: 36px; } .hero-proof div { padding: 0 11px; } .hero-proof strong { font-size: 1.5rem; } .hero-visual { height: 390px; } .candid-frame { width: 105px; height: 135px; right: 0; bottom: 5%; } .hero-note { font-size: .55rem; padding: 9px; } .hero-note strong { font-size: .62rem; } .section-heading-row { display: block; } .section-aside { margin-top: 16px; } .featured-work { grid-template-columns: 1fr; } .featured-card:first-child { grid-column: auto; } .featured-preview, .featured-card:first-child .featured-preview { min-height: 300px; } .featured-card:not(:first-child) .preview-marquee, .preview-marquee { font-size: clamp(3.1rem, 12vw, 6rem); } .featured-caption { grid-template-columns: 26px 1fr 40px; gap: 9px; } .impact-feature { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { .featured-preview, .project-open { transition: none; } html { scroll-behavior: auto; } }
 @media (max-width: 800px) { .case-grid { grid-template-columns: 1fr; } }
 @media (max-width: 900px) { .workflow-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } .workflow-intro { grid-template-columns: 1fr; gap: 14px; } }
+@media (max-width: 900px) { .revenue-heading { grid-template-columns: 1fr; gap: 14px; } .revenue-map { grid-template-columns: 1fr; } .revenue-entry, .revenue-close { min-height: 0; } .revenue-branches { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr; } }
+@media (max-width: 540px) { .revenue-branches, .revenue-outcome { grid-template-columns: 1fr; } .revenue-outcome { gap: 10px; padding: 24px; } }
 @media (max-width: 540px) { .workflow-steps { grid-template-columns: 1fr; } .workflow-steps li { min-height: 0; } .workflow-steps h4 { margin-top: 12px; } }
 @media (max-width: 480px) { .case-card dl div { grid-template-columns: 1fr; gap: 6px; } }
