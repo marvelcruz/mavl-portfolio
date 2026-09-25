@@ -1,5 +1,6 @@
 export const links = [
   { title: "Operations", href: "#impact" },
+  { title: "Case Studies", href: "#case-studies" },
   { title: "Web Projects", href: "#projects" },
   { title: "What I do", href: "#services" },
   { title: "Recognition", href: "#recognition" },

@@ -6,9 +6,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Marvellous Olabode | Business Operations & Growth Systems Specialist",
+  title: "Marvellous Olabode | Revenue Operations, CRM Automation & Business Systems",
   description:
-    "Portfolio of Marvellous Olabode, a Business Operations and Growth Systems Specialist focused on CRM administration, workflow automation, marketing operations, website operations, event systems, and remote business support.",
+    "Marvellous Olabode works across revenue operations, CRM automation, business systems, and creative website experiences. Explore selected operations work and live web concepts.",
   keywords: [
     "Marvellous Olabode",
     "Business Operations Specialist",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     icon: "/icons/logo.ico",
   },
   openGraph: {
-    title: "Marvellous Olabode | Business Operations & Growth Systems Specialist",
+    title: "Marvellous Olabode | Revenue Operations & CRM Automation",
     description:
       "CRM, workflow automation, website operations, marketing operations, event systems, and remote business support.",
     type: "website",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Marvellous Olabode | Business Operations & Growth Systems Specialist",
+    title: "Marvellous Olabode | Revenue Operations & CRM Automation",
     description:
       "CRM, workflow automation, website operations, marketing operations, event systems, and remote business support.",
   },

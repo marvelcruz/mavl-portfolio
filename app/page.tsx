@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import About from "@/components/About";
 import Impact from "@/components/Impact";
+import CaseStudies from "@/components/CaseStudies";
 import Projects from "@/components/Projects";
 import Recognition from "@/components/Recognition";
 import Services from "@/components/Services";
@@ -11,6 +12,7 @@ export default function Home() {
     <Fragment>
       <About />
       <Impact />
+      <CaseStudies />
       <Projects />
       <Services />
       <Recognition />
