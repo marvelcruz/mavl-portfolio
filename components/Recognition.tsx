@@ -17,6 +17,17 @@ const Recognition = () => {
           <h3 className="section-h3 max-w-3xl text-center">{description}</h3>
         </motion.div>
 
+        <motion.div {...motionValues} className="recognition-endorsement">
+          <div>
+            <p className="eyebrow">Recommendation / LinkedIn</p>
+            <h3>What a colleague says about working with me.</h3>
+          </div>
+          <div>
+            <p>Tanimu Haruna recommends me on LinkedIn, highlighting my analytical approach, communication, and attention to detail.</p>
+            <Link href="https://ng.linkedin.com/in/marvellous-olabode-802070105" target="_blank" rel="noopener noreferrer">View the recommendation on LinkedIn ↗</Link>
+          </div>
+        </motion.div>
+
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {recognitionItems.map((item, index) => (
             <motion.article

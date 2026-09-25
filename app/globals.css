@@ -558,7 +558,14 @@ body::after {
 .bni-case-facts span { display: grid; gap: 5px; color: #bfc9be; font-size: .78rem; }
 .bni-case-facts strong { color: #fff; font-size: 1.45rem; }
 .bni-case-end { padding-top: 0; padding-bottom: 100px; }
+.recognition-endorsement { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; width: 100%; padding: clamp(25px, 4vw, 52px); border: 1px solid rgba(255,255,255,.25); border-radius: 14px; background: #17231d; }
+.recognition-endorsement h3 { max-width: 550px; margin-top: 17px; font-size: clamp(1.8rem, 3vw, 3.2rem); line-height: 1.1; letter-spacing: -.055em; font-weight: 800; }
+.recognition-endorsement > div:last-child { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 20px; }
+.recognition-endorsement > div:last-child p { color: #d3dfd1; font-size: clamp(.95rem, 1.4vw, 1.25rem); line-height: 1.6; }
+.recognition-endorsement a { border-bottom: 1px solid currentColor; padding-bottom: 4px; font-size: .78rem; font-weight: 800; }
+.recognition-endorsement a:hover { opacity: .7; }
 @media (max-width: 750px) { .case-teaser-grid { grid-template-columns: 1fr; } .case-teaser { min-height: 290px; } .bni-case-back { margin-bottom: 50px; } }
+@media (max-width: 750px) { .recognition-endorsement { grid-template-columns: 1fr; gap: 20px; } }
 @media (max-width: 1024px) { .hero { grid-template-columns: 1fr; padding-top: 135px; gap: 25px; } .hero-visual { height: 490px; max-width: 560px; width: 100%; margin: 0 auto; } }
 @media (max-width: 680px) { .hero { padding-top: 120px; } .hero-heading { font-size: clamp(3.3rem, 13vw, 5rem); } .hero-proof { margin-top: 36px; } .hero-proof div { padding: 0 11px; } .hero-proof strong { font-size: 1.5rem; } .hero-visual { height: 390px; } .candid-frame { width: 105px; height: 135px; right: 0; bottom: 5%; } .hero-note { font-size: .55rem; padding: 9px; } .hero-note strong { font-size: .62rem; } .section-heading-row { display: block; } .section-aside { margin-top: 16px; } .featured-work { grid-template-columns: 1fr; } .featured-card:first-child { grid-column: auto; } .featured-preview, .featured-card:first-child .featured-preview { min-height: 300px; } .featured-card:not(:first-child) .preview-marquee, .preview-marquee { font-size: clamp(3.1rem, 12vw, 6rem); } .featured-caption { grid-template-columns: 26px 1fr 40px; gap: 9px; } .impact-feature { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { .featured-preview, .project-open { transition: none; } html { scroll-behavior: auto; } }

@@ -87,7 +87,7 @@ export const projects = {
 export const Recognition = {
   title: "Selected Recognition",
   description:
-    "Documented moments from my work with BNI Alberta South. The awards recognize the regional team; the anniversary message acknowledges my own tenure.",
+    "A colleague's recommendation and documented moments from BNI Alberta South. The awards recognize the regional team; the anniversary acknowledges my own tenure.",
   projects: [
     {
       id: "recognition-1",
