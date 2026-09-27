@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Impact from "@/components/Impact";
 import CaseStudies from "@/components/CaseStudies";
 import Projects from "@/components/Projects";
+import BodyOfWork from "@/components/BodyOfWork";
 import Recognition from "@/components/Recognition";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
@@ -14,6 +15,7 @@ export default function Home() {
       <Impact />
       <CaseStudies />
       <Projects />
+      <BodyOfWork />
       <Services />
       <Recognition />
       <Contact />
