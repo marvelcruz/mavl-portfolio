@@ -24,8 +24,8 @@ const studies = [
     title: "Keeping a busy network coordinated.",
     context: "BNI Alberta South · remote operations",
     challenge: "A distributed leadership team needed reliable meeting logistics, member support, access management, and recurring reports across 18 chapters.",
-    contribution: "I coordinated registrations, Zoom and Eventbrite logistics, meeting and presentation updates, venue and gala support, social-platform access, member inquiries, permissions, recurring reporting, and QuickBooks reconciliation work.",
-    result: "Leaders and chapter teams had a consistent operating point for events, access, member records, reporting, finance questions, and issue escalation across the region.",
+    contribution: "I coordinated registrations, Zoom and Eventbrite logistics, meeting and presentation updates, venue and gala support, social-platform access, member inquiries, permissions, recurring reporting, regional scoreboards and Traffic Lights, QuickBooks reconciliation, CRM/database maintenance, and support escalations.",
+    result: "Leaders and chapter teams had a consistent operating point for events, access, member records, reporting, finance questions, data maintenance, and issue escalation across the region. Detailed work logs also document behind-the-scenes bookkeeping, tax-document, and operational project support.",
     tools: "Google Workspace · BNI Connect · Eventbrite · Zoom · QuickBooks",
   },
 ];
@@ -48,8 +48,8 @@ export default function CaseStudies({ full = false }: { full?: boolean }) {
         <div className="case-teaser-grid">
           <article className="case-teaser">
             <p className="eyebrow">BNI Alberta South / Operations</p>
-            <h3>From visitor interest to renewal across 18 chapters.</h3>
-            <p>Lead and visitor follow-up, applications, member lifecycle, systems access, events, reporting, and finance support across a regional network.</p>
+            <h3>From visitor interest to renewal — and the operations behind it.</h3>
+            <p>Lead and visitor follow-up, applications, member lifecycle, systems access, events, reporting, CRM/database maintenance, scoreboards, and finance support across an 18-chapter regional network.</p>
             <Link href="/work/bni-operations">Read the BNI case study <span aria-hidden="true">↗</span></Link>
           </article>
           <article className="case-teaser case-teaser-accent">
