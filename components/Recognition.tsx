@@ -28,6 +28,18 @@ const Recognition = () => {
           </div>
         </motion.div>
 
+        <motion.div {...motionValues} className="feedback-proof">
+          <div>
+            <p className="eyebrow">Inbox-verified feedback / chapter support</p>
+            <h3>Reliable enough to be remembered.</h3>
+          </div>
+          <div className="feedback-items">
+            <p>Chapter leaders repeatedly thanked me after I resolved dashboard-access, training-assignment, seat-change, member-record, and reporting issues.</p>
+            <p>One chapter leader described me as “the best” after I restored Membership Committee dashboard access; another explicitly thanked me for the guidance that let them correct a submitted reporting issue themselves.</p>
+            <small>Private email feedback is summarized here without publishing personal contact details or full correspondence.</small>
+          </div>
+        </motion.div>
+
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {recognitionItems.map((item, index) => (
             <motion.article
