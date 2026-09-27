@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mavl-portfolio-wg6f.vercel.app"),
-  title: "Marvellous Olabode | Revenue Operations, CRM Automation & Business Systems",
+  title: "Marvellous Olabode | Digital Experiences, Revenue Operations & Systems",
   description:
-    "Marvellous Olabode works across revenue operations, CRM automation, business systems, and creative website experiences. Explore selected operations work and live web concepts.",
+    "Marvellous Olabode designs digital experiences and builds the CRM, automation, revenue operations, and business systems behind them. Explore live builds, case studies, and operating-system work.",
   keywords: [
     "Marvellous Olabode",
     "Business Operations Specialist",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     icon: "/icons/logo.ico",
   },
   openGraph: {
-    title: "Marvellous Olabode | Revenue Operations & CRM Automation",
+    title: "Marvellous Olabode | Digital Experiences & Revenue Operations",
     description:
       "CRM, workflow automation, website operations, marketing operations, event systems, and remote business support.",
     type: "website",
