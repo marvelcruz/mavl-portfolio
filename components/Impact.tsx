@@ -1,16 +1,16 @@
 const systems = [
-  { index: "01", title: "Revenue operations & CRM", description: "Maintained visitor, member, renewal, and payment workflows; consolidated archived and current Keap CRM records into a usable contact dataset for bulk communication." },
-  { index: "02", title: "Reporting & operating rhythm", description: "Managed recurring regional reporting, including Traffic Lights communication across all 18 chapters and scoreboard reorganisation for leadership visibility." },
-  { index: "03", title: "Finance & reconciliation", description: "Handled QuickBooks categorisation and reconciliation, membership payment reconciliation, and bookkeeping support, including a bank-account reconciliation spanning September 2024 to August 2025." },
-  { index: "04", title: "Access, systems & escalation", description: "Administered BNI Connect permissions, chapter social-media access, leadership-role changes, and support escalations with documented screenshots and follow-through." },
-  { index: "05", title: "SOPs & enablement", description: "Built and maintained repeatable operating guidance, including onboarding requirements for chapter leadership, training, confidentiality agreements, and system access." },
+  { index: "01", title: "Lead & visitor operations", description: "Handled the front of the lifecycle: visitor follow-up, chapter routing, application readiness, registration questions, and handoffs so each inquiry had a clear next step." },
+  { index: "02", title: "Member lifecycle & CRM", description: "Supported applications, approvals, renewals, transfers, seat and classification changes, resignations, offboarding, CRM records, and member-data corrections across the regional network." },
+  { index: "03", title: "Systems, access & enablement", description: "Administered BNI Connect and BNI+ permissions, leadership and committee roles, training assignments, dashboard access, social-platform access, and support escalations." },
+  { index: "04", title: "Reporting, finance & reconciliation", description: "Managed Traffic Lights and scoreboard workflows, QuickBooks categorisation, payment reconciliation, bookkeeping support, and a bank-account reconciliation covering September 2024 to August 2025." },
+  { index: "05", title: "Events, communications & process", description: "Coordinated Eventbrite and Zoom workflows, meeting and presentation updates, venue and gala support, digital communications, SOPs, onboarding guidance, and recurring operating procedures." },
 ];
 
 const evidence = [
-  { metric: "18", label: "chapters in recurring reporting scope" },
-  { metric: "9", label: "chapters updated for one presentation cycle" },
+  { metric: "18", label: "chapters supported across regional operations" },
+  { metric: "5+", label: "years of documented remote operations work" },
   { metric: "12 mo", label: "bank reconciliation period completed" },
-  { metric: "5+", label: "years supporting remote operations" },
+  { metric: "E2E", label: "visitor-to-member lifecycle responsibility" },
 ];
 
 export default function Impact() {
@@ -24,7 +24,7 @@ export default function Impact() {
         <div className="impact-lead">
           <p className="eyebrow">Featured experience / BNI Alberta South</p>
           <h3>Making complexity feel manageable.</h3>
-          <p>For more than five years, I have supported regional leaders and chapter teams remotely across CRM and revenue workflows, automation, member services, events, reporting, digital communication, finance operations, and daily systems administration.</p>
+          <p>For more than five years, I have supported regional leaders and chapter teams remotely across lead and visitor operations, CRM and member lifecycle, payments, reporting, systems access, events, digital communications, finance operations, and process documentation.</p>
           <div className="impact-numbers">
             <div><strong>18</strong><span>chapters supported</span></div>
             <div><strong>5+</strong><span>years of remote work</span></div>
@@ -43,7 +43,7 @@ export default function Impact() {
           </div>
         ))}
       </div>
-      <p className="evidence-note">Scope figures are drawn from documented operating records and work reports. They describe responsibilities completed, not unverified revenue or conversion impact.</p>
+      <p className="evidence-note">Scope statements are based on documented operating records across five years of BNI Admin work. They describe responsibilities completed, not unverified revenue or conversion impact.</p>
     </section>
   );
 }
