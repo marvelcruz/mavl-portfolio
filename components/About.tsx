@@ -7,7 +7,7 @@ export default function About() {
       <div className="hero-copy">
         <p className="eyebrow"><span className="status-dot" /> Portfolio / Marvellous Olabode</p>
         <h1 className="hero-heading">The experience.<br />The <em>engine.</em></h1>
-        <p className="hero-lede">I build websites people want to explore and the CRM, automations, and operations that keep the journey moving.</p>
+        <p className="hero-lede">I design the customer experience — and build the CRM, automations, and operations that keep it moving.</p>
         <p className="hero-intro">
           I’m Marvellous Olabode. For more than five years, I’ve helped a regional
           network run its member and revenue workflows. I also design and build
@@ -21,7 +21,7 @@ export default function About() {
         <div className="hero-proof" aria-label="Experience highlights">
           <div><strong>5+</strong><span>years working remotely</span></div>
           <div><strong>18</strong><span>BNI chapters supported</span></div>
-          <div><strong>CRM</strong><span>pipelines and automation</span></div>
+          <div><strong>20+</strong><span>independent concept builds</span></div>
         </div>
       </div>
       <div className="hero-visual">
