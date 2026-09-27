@@ -10,7 +10,7 @@ export default function About() {
         <p className="hero-lede">I design the customer experience — and build the CRM, automations, and operations that keep it moving.</p>
         <p className="hero-intro">
           I’m Marvellous Olabode. For more than five years, I’ve helped a regional
-          network run its member and revenue workflows. I also design and build
+          network run its member, finance, reporting, and revenue workflows. I also design and build
           live digital experiences. Explore both sides of my work below.
         </p>
         <div className="hero-actions">
