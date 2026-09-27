@@ -3,11 +3,11 @@ import Link from "next/link";
 const studies = [
   {
     label: "01 / CRM & member lifecycle",
-    title: "One member journey across 18 chapters.",
+    title: "From visitor interest to renewal across 18 chapters.",
     context: "BNI Alberta South · 18 chapters · Nov 2021–present",
-    challenge: "A visitor could move from an inquiry to a chapter visit, application, membership, and renewal. Each handoff needed an owner and a usable record across regional and chapter teams.",
-    contribution: "I supported the Keap to GoHighLevel transition, maintained visitor, member, and renewal pipeline stages, connected forms and follow-up tasks with Zapier and Alchemer, and documented handoffs for the people using the system.",
-    result: "The working process connected intake, status, ownership, next action, and renewal support in the CRM. This describes the system and my role; it is not a claim of measured conversion or revenue growth.",
+    challenge: "A visitor could move from inquiry to chapter visit, application, approval, membership, renewal, transfer, or exit. Each handoff needed an owner, an accurate record, and the right next action across regional and chapter teams.",
+    contribution: "I supported the CRM transition, maintained visitor, application, member, and renewal workflows, handled classification and transfer changes, coordinated follow-up and access issues, connected forms and tasks with automation tools, and documented handoffs for the people using the system.",
+    result: "The operating process connected intake, status, ownership, next action, member support, and renewal administration across an 18-chapter region. This describes the system and my role; it is not a claim of measured conversion or revenue growth.",
     tools: "GoHighLevel · Keap · Zapier · Alchemer",
   },
   {
@@ -24,8 +24,8 @@ const studies = [
     title: "Keeping a busy network coordinated.",
     context: "BNI Alberta South · remote operations",
     challenge: "A distributed leadership team needed reliable meeting logistics, member support, access management, and recurring reports across 18 chapters.",
-    contribution: "I coordinated registrations, calendars, Zoom and Eventbrite logistics, and post-event communication. I handled member inquiries and permissions, maintained reporting routines, and supported QuickBooks reconciliation work.",
-    result: "Leaders and chapter teams had consistent coordination and an identified point of support for events, access, and reporting.",
+    contribution: "I coordinated registrations, Zoom and Eventbrite logistics, meeting and presentation updates, venue and gala support, social-platform access, member inquiries, permissions, recurring reporting, and QuickBooks reconciliation work.",
+    result: "Leaders and chapter teams had a consistent operating point for events, access, member records, reporting, finance questions, and issue escalation across the region.",
     tools: "Google Workspace · BNI Connect · Eventbrite · Zoom · QuickBooks",
   },
 ];
@@ -48,8 +48,8 @@ export default function CaseStudies({ full = false }: { full?: boolean }) {
         <div className="case-teaser-grid">
           <article className="case-teaser">
             <p className="eyebrow">BNI Alberta South / Operations</p>
-            <h3>One member journey across 18 chapters.</h3>
-            <p>CRM migration, visitor and renewal follow-up, events, reporting, and finance support across a regional network.</p>
+            <h3>From visitor interest to renewal across 18 chapters.</h3>
+            <p>Lead and visitor follow-up, applications, member lifecycle, systems access, events, reporting, and finance support across a regional network.</p>
             <Link href="/work/bni-operations">Read the BNI case study <span aria-hidden="true">↗</span></Link>
           </article>
           <article className="case-teaser case-teaser-accent">
@@ -142,7 +142,7 @@ export default function CaseStudies({ full = false }: { full?: boolean }) {
           <strong>Documented scope: 18 chapters</strong>
           <p>My work supported the visitor and member lifecycle across the region, from intake and follow-up to renewals and payment questions. The 18-chapter figure describes the operating scope; a revenue total or conversion lift has not been verified.</p>
         </div>
-        <p className="revenue-disclosure">Reconstructed from my BNI Alberta South CRM and operations responsibilities. The paths summarize the work; they are not an export of the organization’s production process or member data.</p>
+        <p className="revenue-disclosure">Reconstructed from five years of documented BNI Alberta South CRM and operations responsibilities. The paths summarize the work; they are not an export of the organization’s production process or member data.</p>
       </div>
     </section>
   );
