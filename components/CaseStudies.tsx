@@ -11,7 +11,16 @@ const studies = [
     tools: "GoHighLevel · Keap · Zapier · Alchemer",
   },
   {
-    label: "02 / CRM data reconciliation",
+    label: "02 / Email marketing & lifecycle",
+    title: "From audience segment to send, measure, improve.",
+    context: "BNI Alberta South · email marketing · 5+ years",
+    challenge: "Regional communications needed to reach the right audience with the right message at the right point in the visitor and member journey, while staying coordinated with CRM activity, events, promotions, and recurring regional communication.",
+    contribution: "I planned and wrote campaign flows across welcome, promotional, newsletter, member, and renewal communications; designed branded email templates; segmented email lists for targeted sends; scheduled campaigns and managed the email calendar; tracked open rates, click rates, and conversions; and optimized subject lines, content, calls to action, timing, and future sends based on performance data.",
+    result: "Email became part of a repeatable lifecycle system rather than a series of isolated sends: audience, message, timing, CRM status, scheduling, and performance review were managed as one connected campaign process. No unsupported conversion or revenue lift is claimed here.",
+    tools: "Keap · GoHighLevel · HubSpot · CRM segmentation · campaign reporting",
+  },
+  {
+    label: "03 / CRM data reconciliation",
     title: "One usable view across two CRMs.",
     context: "BNI Alberta South · CRM operations",
     challenge: "Contact records from separate CRM systems needed to be compared before they could support reliable follow-up and reporting.",
@@ -20,7 +29,7 @@ const studies = [
     tools: "Keap · HubSpot · spreadsheet reconciliation",
   },
   {
-    label: "03 / Regional operations",
+    label: "04 / Regional operations",
     title: "Keeping a busy network coordinated.",
     context: "BNI Alberta South · remote operations",
     challenge: "A distributed leadership team needed reliable meeting logistics, member support, access management, and recurring reports across 18 chapters.",
@@ -49,7 +58,7 @@ export default function CaseStudies({ full = false }: { full?: boolean }) {
           <article className="case-teaser">
             <p className="eyebrow">BNI Alberta South / Operations</p>
             <h3>From visitor interest to renewal — and the operations behind it.</h3>
-            <p>Lead and visitor follow-up, applications, member lifecycle, systems access, events, reporting, CRM/database maintenance, scoreboards, and finance support across an 18-chapter regional network.</p>
+            <p>Email campaign strategy and design, targeted segmentation, welcome and promotional flows, newsletters, campaign calendars, performance optimization, lead follow-up, member lifecycle, CRM/database maintenance, events, reporting, and finance support across an 18-chapter regional network.</p>
             <Link href="/work/bni-operations">Read the BNI case study <span aria-hidden="true">↗</span></Link>
           </article>
           <article className="case-teaser case-teaser-accent">
