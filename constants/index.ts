@@ -8,10 +8,10 @@ export const links = [
 
 export const details = {
   aboutTitle: "Marvellous Olabode",
-  aboutSubtitle: "Business Operations & Growth Systems Specialist",
+  aboutSubtitle: "Email Marketing, CRM & Growth Systems Specialist",
   aboutDesc: [
-    "I build the operational systems behind business growth: CRM workflows, marketing operations, website updates, reporting dashboards, event processes, and remote team systems that keep organizations moving.",
-    "For the last 5+ years, I have supported Canadian business teams remotely from Nigeria across CRM administration, workflow automation, digital operations, event systems, reporting, website updates, social media coordination, QuickBooks support, and member services.",
+    "I build the systems behind business growth: email marketing strategy, branded campaigns, CRM workflows, lifecycle automation, segmentation, reporting dashboards, website experiences, and the operations that keep them moving.",
+    "For the last 5+ years, I have supported BNI Alberta South remotely from Nigeria across email campaign planning and design, welcome and promotional flows, newsletters, targeted list segmentation, email calendars, campaign scheduling, performance tracking, CRM administration, workflow automation, reporting, events, and member services.",
     "My strongest work happens behind the scenes. I organize messy systems, document repeatable workflows, connect tools, support leaders, manage digital assets, and help teams move from scattered manual work to structured execution.",
   ],
 };
@@ -21,6 +21,13 @@ export const services = {
   subtitle:
     "A connected skill set across customer acquisition, operations, technology, and delivery.",
   values: [
+    {
+      title: "Email Marketing & Lifecycle Strategy",
+      desc: "I plan, write, design, schedule, and optimize branded email campaigns across welcome, promotional, newsletter, member, and renewal journeys, using segmentation and performance data to improve each send.",
+      tools: [
+        "Campaign Strategy", "Email Design", "Segmentation", "Campaign Calendars", "Performance Optimization",
+      ],
+    },
     {
       title: "Revenue Operations & CRM",
       desc: "I turn scattered inquiries into managed journeys: lead capture, pipeline stages, follow-ups, renewals, reporting, and clear ownership across a team.",
@@ -125,7 +132,7 @@ export const Recognition = {
 export const contact = {
   title: "Let's Work Together",
   description:
-    "I am open to remote roles and project opportunities in business operations, marketing operations, CRM administration, workflow automation, digital operations, and growth systems.",
+    "I am open to remote roles and project opportunities in email marketing, lifecycle strategy, marketing operations, CRM administration, workflow automation, digital operations, and growth systems.",
 };
 
 export const socials = [
