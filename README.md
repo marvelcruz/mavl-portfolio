@@ -1,6 +1,6 @@
 # Marvellous Olabode — Portfolio
 
-A portfolio at the intersection of **digital experience, revenue operations, CRM automation, and business systems**.
+A portfolio at the intersection of **email marketing, lifecycle strategy, digital experience, revenue operations, CRM automation, and business systems**.
 
 **Live portfolio:** https://mavl-portfolio-wg6f.vercel.app
 
@@ -10,13 +10,13 @@ I design the customer experience — and build the systems behind it.
 
 The site brings together two sides of my work:
 
-- **Operations & revenue systems:** CRM lifecycle work, workflow automation, reporting, member operations, event systems, and finance support.
+- **Email marketing & lifecycle:** branded campaign design, welcome and promotional flows, newsletters, targeted segmentation, email calendars, scheduling, performance tracking, and campaign optimization.\n- **Operations & revenue systems:** CRM lifecycle work, workflow automation, reporting, member operations, event systems, and finance support.
 - **Digital experiences:** live websites, product concepts, landing experiences, and interface systems built with modern web tools.
 
 ## Selected work
 
 - **Regional OS** — an interactive sample showing report evidence, follow-up actions, role-based workspaces, and finance exception review.
-- **BNI Alberta South operations** — documented CRM, member lifecycle, reporting, event, and administrative work across an 18-chapter regional network.
+- **BNI Alberta South email marketing & operations** — 5+ years of campaign planning and design, lifecycle flows, targeted segmentation, email calendar management, performance optimization, CRM, member lifecycle, reporting, events, and administration across an 18-chapter regional network.
 - **COSMO Bar** — hospitality website and multi-page digital experience.
 - **Skye Medical Aesthetics** — treatment discovery and consultation journey.
 - **FitLunge** — wellness website and application journey.
