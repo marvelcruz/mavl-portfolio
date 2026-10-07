@@ -39,18 +39,22 @@ def section(label):
 
 story = [
     p("MARVELLOUS OLABODE", "name"),
-    p("REVENUE OPERATIONS &amp; CRM AUTOMATION | BUSINESS OPERATIONS &amp; DIGITAL SYSTEMS", "tag"),
+    p("EMAIL MARKETING &amp; CRM STRATEGY | REVENUE OPERATIONS &amp; DIGITAL SYSTEMS", "tag"),
     p('Lagos, Nigeria · Remote | <link href="mailto:Marvellousolabode@gmail.com">Marvellousolabode@gmail.com</link> | +234 807 189 5503 | <link href="https://www.linkedin.com/in/marvellousolabode/">LinkedIn</link> | <link href="https://mavl-portfolio-wg6f.vercel.app/">Portfolio</link>', "contact"),
     section("Profile"),
-    p("Operations and digital systems specialist with 5+ years of remote experience supporting BNI Alberta South across 18 chapters. I work across CRM administration, member lifecycle workflows, data reconciliation, automation, reporting, events, and executive support. I also design live website concepts for hospitality, healthcare, and wellness."),
+    p("Email marketing, CRM, and digital systems specialist with 5+ years of remote experience supporting BNI Alberta South across 18 chapters. I plan, write, design, schedule, and optimize lifecycle campaigns across welcome, promotional, newsletter, member, and renewal communications, alongside CRM administration, segmentation, automation, reporting, and digital experience design."),
     section("Professional experience"),
     p("BNI Alberta South | Executive Administrative Assistant / Digital Operations Support | Remote, Calgary, Canada | Nov 2021–Present", "job"),
+    p("• Planned, wrote, and designed branded email campaigns across welcome, promotional, newsletter, member, and renewal communications for BNI Alberta South.", "bullet"),
+    p("• Segmented email lists for targeted sends, scheduled campaigns, managed the email calendar, and coordinated messaging with CRM stages, events, and regional priorities.", "bullet"),
+    p("• Tracked open rates, click rates, and conversions, then optimized subject lines, content, calls to action, timing, and future sends based on performance data.", "bullet"),
     p("• Supported visitor, member, and renewal workflows across 18 chapters, maintaining CRM records, follow-up processes, forms, and operational handoffs.", "bullet"),
     p("• Supported the Keap to GoHighLevel transition and member-facing CRM workflows using Zapier and Alchemer where appropriate.", "bullet"),
     p("• Reconciled contact exports across Keap and HubSpot, checking matched records, source-only records, duplicates, and missing keys before producing a unified working list.", "bullet"),
     p("• Coordinated meetings, registrations, Zoom and Eventbrite logistics, member inquiries, permissions, technical issues, and team documentation.", "bullet"),
     p("• Supported recurring reporting and QuickBooks reconciliation workflows for regional leaders.", "bullet"),
-    section("Selected systems work"),
+    section("Selected marketing and systems work"),
+    p("<b>Email marketing and lifecycle:</b> Built repeatable campaign processes connecting audience segmentation, branded templates, campaign flows, scheduling, CRM status, performance tracking, and optimization."),
     p("<b>Member lifecycle and CRM:</b> Organized pipeline stages, follow-up tasks, forms, automation, and team handoffs for visitor, member, and renewal activity."),
     p("<b>Regional OS:</b> Built role-based workspaces for regional staff, chapter leaders, and members, with weekly report readiness, follow-up actions, and finance exception review. <link href=\"https://mavl-portfolio-wg6f.vercel.app/regional-os-demo\">Explore the fictional public walkthrough</link>."),
     section("Web and digital projects"),
@@ -58,11 +62,11 @@ story = [
     p('Skye Medical Aesthetics — treatment discovery and consultation journey | <link href="https://skye-weight-loss-clinic-frontend.vercel.app/">View live</link>'),
     p('FitLunge — wellness website concept and program journey | <link href="https://fitlunge-frontend-kappa.vercel.app/">View live</link>'),
     section("Tools and capabilities"),
-    p("<b>CRM and automation:</b> GoHighLevel, Keap, HubSpot, Salesforce, Zapier, Alchemer, BNI Connect | <b>Operations:</b> Google Workspace, Asana, ClickUp, Zoom, Eventbrite, QuickBooks Online | <b>Web and reporting:</b> React, Next.js, WordPress, Vercel, SQL, Tableau"),
+    p("<b>Email, CRM and automation:</b> Campaign strategy, email design, segmentation, email calendars, performance optimization, GoHighLevel, Keap, HubSpot, Salesforce, Zapier, Alchemer, BNI Connect | <b>Operations:</b> Google Workspace, Asana, ClickUp, Zoom, Eventbrite, QuickBooks Online | <b>Web and reporting:</b> React, Next.js, WordPress, Vercel, SQL, Tableau"),
     section("Education"),
     p("University of Ilorin | Bachelor of Science (B.Sc.) | 2023"),
 ]
 
-doc = SimpleDocTemplate(str(OUTPUT), pagesize=(612, 792), rightMargin=54, leftMargin=54, topMargin=48, bottomMargin=42, title="Marvellous Olabode | Revenue Operations and CRM Automation", author="Marvellous Olabode")
+doc = SimpleDocTemplate(str(OUTPUT), pagesize=(612, 792), rightMargin=54, leftMargin=54, topMargin=48, bottomMargin=42, title="Marvellous Olabode | Email Marketing, CRM Strategy and Revenue Operations", author="Marvellous Olabode")
 doc.build(story)
 print(OUTPUT)
