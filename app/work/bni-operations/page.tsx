@@ -3,8 +3,8 @@ import Link from "next/link";
 import CaseStudies from "@/components/CaseStudies";
 
 export const metadata: Metadata = {
-  title: "BNI Alberta South operations case study | Marvellous Olabode",
-  description: "Marvellous Olabode's work across CRM, member lifecycle, regional operations, revenue support, and the Regional OS project for BNI Alberta South.",
+  title: "BNI Alberta South email marketing & operations case study | Marvellous Olabode",
+  description: "Marvellous Olabode's work across email marketing, lifecycle strategy, CRM, member operations, revenue support, and the Regional OS project for BNI Alberta South.",
   alternates: { canonical: "/work/bni-operations" },
 };
 
