@@ -7,11 +7,10 @@ export default function About() {
       <div className="hero-copy">
         <p className="eyebrow"><span className="status-dot" /> Portfolio / Marvellous Olabode</p>
         <h1 className="hero-heading">The experience.<br />The <em>engine.</em></h1>
-        <p className="hero-lede">I design the customer experience — and build the CRM, automations, and operations that keep it moving.</p>
+        <p className="hero-lede">I design the customer journey — from branded email campaigns and lifecycle flows to the CRM, automations, and operations behind them.</p>
         <p className="hero-intro">
           I’m Marvellous Olabode. For more than five years, I’ve helped a regional
-          network run its member, finance, reporting, and revenue workflows. I also design and build
-          live digital experiences. Explore both sides of my work below.
+          network run its email marketing, member, finance, reporting, and revenue workflows. I plan and design campaigns, segment audiences, manage email calendars, track performance, optimize sends, and build live digital experiences. Explore both sides of my work below.
         </p>
         <div className="hero-actions">
           <Link href="#case-studies" className="mustard-button">Explore the systems <span aria-hidden="true">→</span></Link>
