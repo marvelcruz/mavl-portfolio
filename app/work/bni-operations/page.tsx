@@ -13,7 +13,7 @@ export default function BniOperationsPage() {
     <main className="bni-case-page">
       <div className="section section_px bni-case-intro">
         <Link href="/#case-studies" className="bni-case-back">← Back to portfolio</Link>
-        <p className="eyebrow">Operations case study / BNI Alberta South</p>
+        <p className="eyebrow">Email marketing + operations case study / BNI Alberta South</p>
         <h1>Systems for a<br /><em>regional network.</em></h1>
         <p>My role connected email marketing strategy, campaign design, audience segmentation, CRM follow-up, member support, reporting, events, and finance coordination across 18 chapters. For 5+ years I have planned and written campaign flows, managed email calendars and targeted sends, tracked performance, and optimized campaigns alongside the wider regional operation.</p>
         <div className="bni-case-facts"><span><strong>18</strong> chapters supported</span><span><strong>5+</strong> years email + lifecycle work</span><span><strong>Email → CRM</strong> connected journeys</span></div>
